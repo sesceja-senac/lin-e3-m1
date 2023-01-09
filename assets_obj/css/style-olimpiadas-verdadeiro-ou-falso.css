@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+@include sr-only;
+@include sr-only-focusable;
+
+
+.object-true-or-false {
+    position: relative;
+    padding: 0;
+    border-radius: 10px;
+    height: Calc(960px * .8);
+    width: Calc(960px * .8);
+    margin-bottom: 30px;
+}
+
+.object-true-or-false .object-window {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.btn_true {
+    border: 0;
+    height: Calc(306px* .2);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    background-color: white;
+}
+
+.btn_true:hover {
+    color: white;
+}
+
+.btn_false {
+    border: 0;
+    height: Calc(310px* .2);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: white;
+    color: black;
+    width: 32%;
+}
+
+.btn_false:hover {
+    background-color: #ff9700;
+    color: white;
+}
+
+.title-quiz-true-or-false {
+    max-width: 190px;
+    position: absolute;
+    top: 6%;
+    left: 9%;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.object-true-or-false .object-window.startGame {
+    background-image: url(../img/desk.jpeg);
+    background-size: contain;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.quiz-true-or-false {
+    background-image: url(../img/desk.jpeg);
+    height: Calc(960px * .8);
+    width: Calc(960px * .8);
+    background-size: contain;
+    position: relative;
+}
+
+.start-message {
+    background-color: white;
+    padding: 10px;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.start-message p {
+    font-size: 1.3rem;
+}
+
+.object-true-or-false .object-window .bt-start {
+    width: 250px;
+}
+
+@keyframes glowAtual {
+    from {
+        box-shadow: 0 0 0 orange;
+        transform: scale(1);
+    }
+
+    to {
+        box-shadow: 0 0 6px 6px lightyellow;
+        transform: scale(1.4);
+    }
+}
+
+@keyframes scaleAtual {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.object-window.startGame {
+    z-index: 5;
+}
+
+.object-window.finishScreen {
+    z-index: 5;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .6);
+    backdrop-filter: blur(5px);
+}
+
+.final-message {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+#quiz-points {
+    position: absolute;
+    bottom: 90px;
+    right: 60px;
+    color: white;
+    font-family: monospace;
+    font-weight: 900;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+
+/************************************************************************/
+/************************* Estilo das modais ****************************/
+/************************************************************************/
+
+#modal-question .modal-content {
+    background-image: url(../img/white-texture.jpg);
+    background-size: 1000px;
+}
+
+#modal-question .modal-header {
+    background-color: transparent;
+    color: black;
+}
+
+#modal-question .modal-body {
+    background-color: transparent;
+}
+
+#modal-question .modal-title {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#modal-question .modal-content {
+    box-shadow: 2px 10px 15px rgba(0, 0, 0, .5);
+}
+
+#modal-quiz-feedback.errado .modal-header {
+    background-color: orangered;
+}
+
+#modal-quiz-feedback.certo .modal-header {
+    background-color: green;
+}
+
+/************************************************************************/
+/********************** Estilo posicões no mapa *************************/
+/************************************************************************/
+
+.bt-show-question {
+    margin: 10px;
+    z-index: 2;
+}
+
+.bt-show-question.atual:hover {
+    animation-play-state: paused;
+}
+
+.bt-show-question.atual::after {
+    display: block;
+    content: "";
+    animation: glowAtual 600ms infinite alternate-reverse ease-in-out;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: -3px;
+}
+
+.bt-show-question.atual::before {
+    content: "";
+    background-image: url(../img/personagem_correndo_acerto.png);
+    background-size: contain;
+    width: 80px;
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: -60px;
+    z-index: 2;
+
+    transition: 200ms;
+    transform: rotate(-51deg);
+}
+
+.bt-show-question.atual:hover::before,
+.bt-show-question.atual:focus::before {
+    opacity: 1;
+}
+
+.bt-show-question {
+    border: 0;
+    background-color: transparent;
+    color: transparent;
+    background-size: contain;
+    width: Calc(60px * .8);
+    height: Calc(68px * .8);
+    position: absolute;
+}
+
+.bt-show-question:disabled {
+    opacity: .4;
+}
+
+.bt-show-question:nth-child(1) {
+    background-image: url(../img/bt_1.png);
+    top: 519px;
+    left: 351px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(2) {
+    background-image: url(../img/bt_2.png);
+    top: 515px;
+    left: 480px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(3) {
+    background-image: url(../img/bt_3.png);
+    top: 471px;
+    left: 599px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(4) {
+    background-image: url(../img/bt_4.png);
+    top: 360px;
+    left: 667px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(4)::before {
+    transform: rotate(-53deg) scaleX(-1);
+}
+
+.bt-show-question:nth-child(5) {
+    background-image: url(../img/bt_5.png);
+    top: 205px;
+    left: 627px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(5)::before {
+    transform: rotate(-53deg) scaleX(-1);
+}
+
+.bt-show-question:nth-child(6) {
+    background-image: url(../img/bt_6.png);
+    top: 145px;
+    left: 477px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(6)::before {
+    transform: rotate(-53deg) scaleX(-1);
+}
+
+.bt-show-question:nth-child(7) {
+    background-image: url(../img/bt_7.png);
+    top: 145px;
+    left: 348px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(7)::before {
+    transform: rotate(-53deg) scaleX(-1);
+}
+
+.bt-show-question:nth-child(8) {
+    background-image: url(../img/bt_8.png);
+    top: 145px;
+    left: 218px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(8)::before {
+    transform: rotate(-53deg) scaleX(-1);
+}
+
+.bt-show-question:nth-child(9) {
+    background-image: url(../img/bt_9.png);
+    top: 259px;
+    left: 54px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(10) {
+    background-image: url(../img/bt_10.png);
+    top: 412px;
+    left: 61px;
+    transform: rotate(53deg);
+}
+
+.bt-show-question:nth-child(11) {
+    background-image: url(../img/podio03.png);
+    top: 339px;
+    left: 274px;
+    width: 200px;
+    height: 80px;
+    background-repeat: no-repeat;
+    animation: none;
+}
+
+.bt-show-question.atual:nth-child(11) {
+    animation: scaleAtual 500ms ease-in-out alternate-reverse infinite;
+}
+
+.bt-show-question:nth-child(11)::before {
+    transform: rotate(0deg) scaleX(1);
+    display: none;
+}
+
+.bt-show-question:nth-child(11)::after {
+    display: none !important;
+}

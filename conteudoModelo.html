@@ -1,0 +1,1660 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Linguagens e suas tecnologias</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/fa/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/print/print.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/lt-estilos.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets_obj/css/objeto-quiz-corrida.css">
+</head>
+
+<body class="bg-sesc">
+    <div class="preloader">
+        <div class="anim"></div>
+        <h1>Aguarde enquanto o conteúdo é carregado.</h1>
+    </div>
+    <!-- MARCA D´ÁGUA -->
+    <img src="assets/img/logo_sesc_horizontal.svg" id="marcadaguaLogo">
+
+    <header id="topo" class="sesc no-print">
+        <img src="assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
+    </header>
+    <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
+    <section id="booklet">
+        <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
+        <header class="titulo-conteudo mb-0 print">
+            <div class="container" style="padding-top:1px">
+                <!--titulo do curso para o print e leitor de tela-->
+                <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Linguagens e suas tecnologias
+                </h1>
+                <div class="row g-0 pb-4 pt-4">
+                    <div class="col-9 d-flex flex-column justify-content-center align-items-start">
+                        <!-- <h2>Matemática</h2> -->
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-end align-items-end">
+                        <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i
+                                class="fas fa-print "></i> imprimir</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="paginas">
+                      <!-- PG1 -->
+                      <div class="pagina bg-jornal pg1-bloco1">
+                        <div class="container">
+                            <h2 class="titulo-head"> Notícias e gêneros digitais</h2>
+                            <img src="img/pginicial/Linha.png" alt="">
+                            <h4>Recapitulando</h4>
+                            <p>
+                                Prezado estudante, você chegou à etapa 2 do curso. No semestre anterior, foram 
+                                    discutidos os tipos de linguagem e suas funções nos diferentes contextos da 
+                                    comunicação. Além disso, você aprendeu as principais características do gênero 
+                                    publicitário, bem como as responsabilidades pertencentes às marcas e aos direitos do 
+                                    consumidor. Que esses conhecimentos ainda estejam presentes, pois serão 
+                                    necessários a esta etapa. Para relembrar o conteúdo, clique nos <i>cards</i> a seguir. 
+                            </p>
+                            <div class="row boxC-modal">
+                                <div class="col-4">
+                                    <figure>
+                                        <img src="img/pg1/Pg1-Modal1.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal1" alt="">
+                                        <figcaption>Concepções básicas</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-4">
+                                    <figure>
+                                        <img src="img/pg1/Pg1-Modal2.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal2"  alt="">
+                                        <figcaption>Gênero publicitário</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-4">
+                                    <figure>
+                                        <img src="img/pg1/Pg1-Modal3.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal3"  alt="">
+                                        <figcaption>O poder e a responsabilidade da publicidade</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="no-print">
+                                    <!-- Button trigger modal -->
+                                    <!-- <div data-bs-toggle="modal" data-bs-target="#bgPainelModal1" class="img-painel1"></div>
+                                    <div data-bs-toggle="modal" data-bs-target="#bgPainelModal2" class="img-painel2"></div>
+                                    <div data-bs-toggle="modal" data-bs-target="#bgPainelModal3" class="img-painel3"></div> -->
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="bgPainelModal1" tabindex="-1"
+                                        aria-labelledby="bgPainelModal1Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="bgPainelModal1Label">Concepções básicas</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/pg1/Pg1-Modal1.png" alt="">
+                                                    <p>
+                                                        O que você aprendeu
+                                                    </p>
+                                                    <ul>
+                                                        <li>Reconhecer os diversos tipos de linguagem</li>
+                                                        <li>Relacionar a utilização da linguagem aos diferentes contextos de uso
+                                                        </li>
+                                                        <li>Reconhecer a língua como um processo vivo que se adapta aos diferentes 
+                                                            objetivos do processo comunicativo</li>
+                                                        <li>Compreender a construção e o uso do modo imperativo na língua inglesa</li>
+                                                        <li>Reconhecer os elementos visuais da cultura brasileira</li>
+                                                    </ul>
+                                                    <p>Conhecimentos que você viu</p>
+                                                    <ul>
+                                                        <li>Linguagem verbal e não verbal
+                                                        </li>
+                                                        <li>Estrangeirismo</li>
+                                                        <li>Identidade visual brasileira</li>
+                                                        <li>Linguagem corporal</li>
+                                                        <li>Gêneros textuais</li>
+                                                        <li>Elementos da comunicação</li>
+                                                        <li>Função referencial da linguagem</li>
+                                                        <li>Função emotiva da linguagem</li>
+                                                        <li>Função conativa da linguagem </li>
+                                                        <li><i>Imperative verbs</i></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="bgPainelModal2" tabindex="-1"
+                                        aria-labelledby="bgPainelModal2Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="bgPainelModal2Label">Gênero publicitário</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/pg1/Pg1-Modal2.png" alt="">
+                                                    <p>O que você aprendeu</p>
+                                                    <ul>
+                                                        <li>Reconhecer a língua como um processo variável e heterogêneo</li>
+                                                        <li>Analisar a visão de mundo e as ideologias presentes nos mais diversos 
+                                                            discursos</li>
+                                                        <li>Compreender as técnicas comunicativas na construção de discursos
+                                                        </li>
+                                                    </ul>
+                                                    <p>
+                                                        Conhecimentos que você viu
+                                                    </p>
+                                                    <ul>
+                                                        <li>Variação linguística na língua portuguesa
+                                                        </li>
+                                                        <li>Variação linguística na língua inglesa</li>
+                                                        <li>Ortografia</li>
+                                                        <li>Eufemismo</li>
+                                                        <li>Linguagem denotativa e conotativa</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="bgPainelModal3" tabindex="-1"
+                                        aria-labelledby="bgPainelModal3Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="bgPainelModal3Label">O poder e a responsabilidade da publicidade</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/pg1/Pg1-Modal3.png"  alt="">
+                                                    <p>O que você aprendeu
+                                                    </p>
+                                                    <ul>
+                                                        <li>Reconhecer a linguagem como uma ferramenta na construção de padrões de 
+                                                            comportamento
+                                                            </li>
+                                                        <li>Relacionar a cultura com os padrões estéticos de uma sociedade e/ou tempo
+                                                        </li>
+                                                        <li> Compreender as responsabilidades que envolvem o processo comunicativo</li>
+                                                        <li> Utilizar a linguagem na defesa de um ponto de vista</li>
+                                                    </ul>
+                                                    <p>Conhecimentos que você viu</p>
+                                                    <ul>
+                                                        <li>Introdução à argumentação</li>
+                                                        <li>Importância da alimentação</li>
+                                                        <li>Adjetivos</li>
+                                                        <li>IMC</li>
+                                                        <li>Atividades físicas e exercícios físicos</li>
+                                                        <li>Padrões estéticos na arte visual</li>
+                                                        <li>Regras de acentuação</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                
+                            </div>
+                            <p>A seguir, serão aprofundados alguns elementos neste estudo, bem como introduzidos 
+                                outros. O principal foco nesta nova etapa será o ambiente digital, este mesmo no qual 
+                                você se encontra agora e talvez esteja se perguntando qual o motivo de estudar sobre 
+                                esse tema, mas a resposta é bastante simples.</p>
+                            <p>
+                                Desde o final do século XX, com o crescimento e a popularização da internet, várias 
+        ferramentas comunicacionais, como as correspondências <i>on-line</i>, os <i>chats</i> e as redes 
+        sociais, foram sendo criadas, facilitando e modificando a maneira de estabelecer contato. 
+        Isso fez com que novas necessidades fossem surgindo, o que, naturalmente, foi 
+        modificando a forma de uso da linguagem dentro desses ambientes. 
+                            </p>
+                            <p>
+                                Dessa forma, uma vez que o objetivo aqui é conseguir transitar por meio dos 
+        diferentes contextos comunicacionais pertencentes ao mundo, compreender como se 
+        utiliza a linguagem nesses espaços é de suma importância para desenvolvimento das 
+        pessoas como cidadãs. Afinal, hoje em dia é pela internet que notícias são lidas, que as 
+        pessoas se candidatam a uma vaga de emprego e, até mesmo, buscam seus direitos, 
+        seja por meio do serviço de atendimento ao consumidor de uma empresa, seja em 
+        votações de cunho político, por exemplo. É sobre essas novas formas de uso da 
+        linguagem e sobre o que advém dessas novas formas que será discutido adiante. Faça 
+        parte dessa caminhada.
+                            </p>
+        
+        
+        
+                        </div>
+                    </div>
+                    <!-- FIM PG1 -->
+                    <!-- PG2 -->
+                    <div class="pagina">
+                        <div class="bg-pg2">
+                            <div class="container">
+                                <h4 class="titulo-head"> Gênero textual notícia</h4>
+                                <img src="img/pginicial/Linha.png" alt="">
+                                <!-- <h4>
+                                </h4> -->
+                                <p>Para ter uma melhor compreensão da sociedade, é fundamental estar bem informado 
+                                    sobre os assuntos que fazem parte do cotidiano e do mundo. Quantas vezes a professora 
+                                    de língua portuguesa propôs um tema de redação e não foi possível desenvolvê-lo por 
+                                    falta de informações para argumentar as ideias? Assim sendo, manter-se atualizado é 
+                                    uma necessidade diária para aprimorar relações pessoais, profissionais, entre outras. 
+                                    Folheie o jornal clicando nas setas e saiba mais sobre o conteúdo de estudo!
+                                    </p>
+                                <!-- flipbook -->
+                                <div id="carouselFlipBook" class="carousel slide carousel-fade" data-bs-ride="">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active" data-bs-interval="10000">
+                                            <img src="img/pg2/Pg2-flipbook1.png"
+                                                class="img-fluid" style="display: block; margin: 0 auto;" alt="Slide 1">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="img/pg2/Pg2-flipbook2.png"
+                                                class="img-fluid" style="display: block; margin: 0 auto;"  alt="Slide 2">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="img/pg2/Pg2-flipbook3.png"
+                                                class="img-fluid" style="display: block; margin: 0 auto;" alt="Slide 3">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="img/pg2/Pg2-flipbook4.png"
+                                                class="img-fluid" style="display: block; margin: 0 auto;" alt="Slide 4">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="img/pg2/Pg2-flipbook5.png"
+                                                class="img-fluid" style="display: block; margin: 0 auto;"  alt="Slide 5">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="img/pg2/Pg2-flipbook6.png"
+                                                class="img-fluid" style="display: block; margin: 0 auto;" alt="Slide 6">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="img/pg2/Pg2-flipbook7.png"
+                                                class="img-fluid" style="display: block; margin: 0 auto;" alt="Slide 7">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFlipBook"
+                                        data-bs-slide="prev">
+                                        <img src="img/pg2/Pg2-Flipbook-bt.png" class="no-print"  style="width: 50%;" alt="">
+                                        <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFlipBook"
+                                        data-bs-slide="next">
+                                        <img src="img/pg2/Pg2-Flipbook-bt.png" class="no-print" style="transform: rotate(180deg);
+                                        width: 50%;" alt="">
+                                        <span class="visually-hidden">Próximo</span>
+                                    </button>
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselFlipBook" data-bs-slide-to="0" class="active"></li>
+                                        <li data-bs-target="#carouselFlipBook" data-bs-slide-to="1"></li>
+                                        <li data-bs-target="#carouselFlipBook" data-bs-slide-to="2"></li>
+                                        <li data-bs-target="#carouselFlipBook" data-bs-slide-to="3"></li>
+                                        <li data-bs-target="#carouselFlipBook" data-bs-slide-to="4"></li>
+                                        <li data-bs-target="#carouselFlipBook" data-bs-slide-to="5"></li>
+                                        <li data-bs-target="#carouselFlipBook" data-bs-slide-to="6"></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-jornal pg22">
+                            
+                            <img src="img/pginicial/Linha.png" class="col-10" alt="">
+                            <div class="container" style="margin-top: 20px;">
+                               <!-- flipbook -->
+                                <p>Retomando os estudos sobre a lide na notícia, as questões indicadas anteriormente 
+                                servem para melhor organizar as informações. Essa estrutura pode ser identificada na 
+                                maioria das notícias que são lidas, especialmente em veículos já bem conhecidos. Tente 
+                                identificar essa estrutura na notícia citada.</p>
+                                <img src="img/pg2/Pg2-destaque1.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="">
+                                <!-- <div class="bg-box-fundo" style="background-color: #00767F;">
+                                    <p><strong>O quê?</strong>  Pedido para que a cantora e atriz Linn da Quebrada explique por quais 
+                                        pronomes ela deve ser tratada. </p>
+                                    <p><strong> Quem?</strong>  Tadeu Schmidt.
+                                    </p>
+                                    <p><strong> Quando?</strong>  Durante a entrada ao vivo. </p>
+                                    <p><strong> Onde?</strong>  Programa Big Brother Brasil (Rio de Janeiro).</p>
+                                    <p><strong> Como?</strong>  O apresentador perguntou quais participantes estavam solteiros, quais 
+                                        estavam solteiras. Após isso, ele pediu para que Linn da Quebrada explicasse a palavra 
+                                        “Ela” tatuada em sua testa. Ao fim da explicação, Tadeu agradeceu e disse que isso 
+                                        servia para que novos erros não fossem cometidos pelos demais participantes. </p>
+                                    <p><strong> Por quê?</strong>  Alguns participantes utilizaram o pronome masculino ao se referir à Linn 
+                                        da Quebrada. 
+                                        </p>
+                                </div> -->
+                                <p>Perceba que a notícia envolvendo os participantes do <i>reality show</i> contém todos os 
+                                    elementos que normalmente constituem uma notícia, o que garante uma compreensão 
+                                    ampla do ocorrido por parte dos leitores. É claro que, dependendo das circunstâncias, 
+                                    nem todos os elementos vão poder ser respondidos, mas isso varia de acordo com o 
+                                    contexto. Por exemplo, em uma notícia a respeito de um assalto, nem sempre vai ser 
+                                    possível identificar quem é o responsável ou como e por que o roubo ocorreu. </p>
+                                <p>É por isso que, ao ler uma notícia em ambiente digital, há uma sinalização de quando 
+                                    aquela notícia foi atualizada, uma vez que, com o tempo, o jornalista responsável pela 
+                                    notícia pode ir averiguando elementos do fato que até então não estavam disponíveis. 
+                                    Em outras palavras, uma vez que o compromisso do jornalismo é com a verdade dos 
+                                    fatos, muitas vezes, é necessário retomar determinadas notícias à medida que os fatos 
+                                    que compõem o acontecimento vão sendo descobertos. Observe o exemplo a seguir. </p>
+                                    <figure>
+                                        <img src="img/pg2/Pg2-fig7.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="">
+                                        <figcaption>Figura 7 - Atualização de notícia</figcaption>
+                                    </figure>
+                                    <p>No entanto, em determinadas situações, a falta de algum desses elementos também 
+                                        pode indicar as chamadas <i>fake news.</i>  Aliás, você sabe o que são as <i> fake news?</i>  Já 
+                                        recebeu alguma no seu grupo?</p>
+                                    
+                                    <figure>
+                                        <img src="img/pg2/Pg2-fig8.png" class="img-fluid d-block m-auto" data-aos="zoom-in"  alt="">
+                                        <figcaption>Figura 8 - <i>Fake news</i></figcaption>
+                                    </figure>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- FIM PG2 -->
+        
+                    <!-- PG3 -->
+                    <div class="pagina">
+                        <!-- <div id="bloco-bg-slider"><img src="img/pg3/Pg3-slide1-bg.png" alt=""></div> -->
+                        <div class="pg3-bg1 bg-jornal3">
+                            <div class="container">
+                                <h4 class="titulo-head"> <i>As fake news</i></h4>
+                                <img src="img/pginicial/Linha.png" alt="">
+                                <p><i>Fake news</i>, em inglês, significa “notícias falsas”, algo que se popularizou nos últimos 
+                                anos, especialmente nas redes sociais e nos aplicativos de mensagens instantâneas. É 
+                                nesses espaços de compartilhamento rápido de informações que <i>as fake news</i>
+                                demonstram seu lado mais problemático. Assim, o que antes se chamava boato ou 
+                                mentira, hoje acaba tendo um grande impacto em setores importantes da sociedade, 
+                                como na política e na saúde. Para melhor compreensão, analise as imagens a seguir.</p>
+                                <p>Clique ou toque nas setas para visualizar o conteúdo.</p>
+
+                            
+                                <div id="carouselId" class="carousel slide sesc" data-bs-ride="">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <img src="img/pg3/Pg3-slide1-1.png"
+                                                class="img-fluid" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/pg3/Pg3-slide1-2.png"
+                                                class="img-fluid" alt="Second slide">
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                                    data-bs-slide="prev">
+                                    <img src="img/pg2/Pg2-Flipbook-bt.png" style="width: 50%;" alt="">
+                                    <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                                        data-bs-slide="next">
+                                        <img src="img/pg2/Pg2-Flipbook-bt.png" style="transform: rotate(180deg);
+                                        width: 50%;" alt="">
+                                        <span class="visually-hidden">Próximo</span>
+                                    </button>
+                                    <ol class="carousel-indicators">
+                                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                                    </ol>
+                                </div>
+            
+                                <p>
+                                    Nessa notícia, é possível perceber alguns elementos que denunciam a sua 
+                                    <strong>inveracidade</strong>. Apesar de figurar em um outro tipo de mídia, os aplicativos de mensagem 
+                instantânea, o que poderia explicar o descompromisso com as normas gramaticais da 
+                variedade formal da língua, há poucas informações que possam fazer com que o leitor 
+                compreenda o fato ocorrido. A seguir, serão verificadas quais perguntas esse texto 
+                consegue responder.
+                                </p>
+                                
+                                <img src="img/pg3/Pg3-card1.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="">
+
+                                <p>Perceba que, apesar de informado que se trata de um evento ocorrido em uma Câmara 
+                                    de Vereadores, não há, na notícia, qual a cidade da suposta câmara. Essa falta de 
+                                    elementos é algo comum em fake news (notícias falsas), uma vez que, na maioria dos 
+                                    casos, elas são constituídas a partir de informações vagas, que não possam ser 
+                                    verificadas. É por isso que a notícia diz que “uma investigação” descobriu os autores da 
+                                    proposta, mas não explicita quem fez essa investigação nem como os resultados dela 
+                                    foram alcançados. </p>
+                                    <div class="caixa icone saiba-mais" data-aos="zoom-in">
+                                        <h4 class="visually-hidden print">Saiba mais</h4>
+                                        Na verdade, essa <i>fake news</i> foi inventada por Gilmar Lopes, criador do <i>site</i> “e-farsas”. 
+                                    Esse <i>site</i> é especializado exatamente na verificação de notícias falsas e tem um acervo 
+                                    bastante amplo sobre o assunto. O intuito do autor era testar como as notícias falsas 
+                                    surgem e em quanto tempo elas se espalham. O resultado foi surpreendente: em apenas 
+                                    um dia, a publicação já havia viralizado e, apesar de o texto conter propositalmente vários 
+                                    erros de português e das câmaras de vereadores não serem responsáveis por esse tipo 
+                                    de mudança, muitas pessoas acreditaram na notícia. Isso fez com que duas petições 
+                                   <i> on-line</i> fossem feitas no <i>site</i> “Avaaz”: uma contrária à inclusão do rosto da cantora nas 
+                                    cédulas e outra a favor. 
+                                    </div>
+                        </div>           
+                    </div>
+                    <div class="pg3-bg2 bg-jornal3">
+                        <div class="container">      
+                            <div class="row">
+                                <div class="col">
+                                    <p>
+                                        Assim, na maioria dos casos, é possível perceber elementos textuais indicando que a 
+                    notícia compartilhada possa ser <i>fake news</i>, são eles:
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="img/pg3/Pg3-destaque.png" class="img-fluid d-block m-auto" data-aos="zoom-in"  alt="">
+                            <br><br>
+                            <p>No entanto, é necessário ter atenção também em relação às imagens, uma vez que a 
+                                tecnologia já proporciona ferramentas para que imagens sejam editadas de maneira 
+                                profissional e pouco perceptível. Como exemplo, há o caso da <i>socialite</i> americana Paris 
+                                Hilton. Em 2013, ela teve uma imagem adulterada, modificando os dizeres que estavam 
+                                estampados em sua camiseta. No lugar da frase <i>Stop being desperate</i> (Pare de ficar 
+                                desesperado), a imagem falsa continha <i>Stop being poor</i> (Pare de ser pobre), conforme 
+                                as imagens a seguir. 
+                                </p>
+                            <figure>
+                                <img src="img/pg3/Pg3-figura11.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="">
+                                <figcaption>Figura 11 – <i> Fake news</i> a respeito da <i>socialite</i> Paris Hilton 
+                                    <br>
+                                    Fonte: Mistérios do Mundo (2020) </figcaption>
+                            </figure>
+                            
+                            <div class="caixa icone saiba-mais" data-aos="zoom-in">
+                                Mesmo assim, muitas pessoas acreditaram na imagem, tanto que a herdeira precisou vir a público desmentir a informação por meio de suas redes sociais, em 2021.  
+                            </div>
+                            <p>
+                                A referida imagem tem o uso de um verbo no modo imperativo (<i>imperative</i>), que foi estudado na primeira etapa do curso. Ele tem a função de incentivar alguém a fazer algo, nesse caso, com o uso de <i>stop</i> (pare) e também <i>being</i>, o tão conhecido e falado <i>To be</i> (o verbo ser ou estar). 	Antes de chegar a essa forma <i>being</i>, será visto como ele pode ter dois significados distintos
+                            </p>
+                            <h4 class="titulo-head"><i>To Be Verbs</i> </h4>
+                            <img src="img/pginicial/Linha.png" alt="">
+                            <p>Em inglês, quando os verbos estão na sua forma básica (no infinitivo), ou seja, estão com seu sentido amplo e não acompanhados de um sujeito, estes são representados com o <i>To</i> antes do verbo, veja a seguir. </p>
+                            
+                            <img src="img/pg3/Pg3-infografico.png" style="width: 100%; max-width: 650px;" class="img-fluid d-block m-auto aos-init aos-animate" alt="">
+                            <br><br>
+                            <p>Agora será desmembrado o <i>To be</i>. Esse verbo assume, no tempo presente, três formas: <i>am, is e are</i>, de acordo com o sujeito que estiver associado. <i>Let’s go!</i> </p>
+                            <p>Clique ou toque nas setas para visualizar o conteúdo.  </p>
+                            <div id="carousel4" class="carousel slide sesc" data-bs-ride="">
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="carousel-item active">
+                                        <img src="img/pg3/Pg3-slide2-1.png"
+                                            class="img-fluid d-block m-auto" data-aos="zoom-in" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/pg3/Pg3-slide2-2.png"
+                                            class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Second slide">
+                                    </div>
+                                </div>
+                                
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4"
+                                data-bs-slide="prev">
+                                <img src="img/pg2/Pg2-Flipbook-bt.png" style="width: 50%;" alt="">
+                                <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel4"
+                                    data-bs-slide="next">
+                                    <img src="img/pg2/Pg2-Flipbook-bt.png" style="transform: rotate(180deg);
+                                    width: 50%;" alt="">
+                                    <span class="visually-hidden">Próximo</span>
+                                </button>
+                                <ol class="carousel-indicators">
+                                    <li data-bs-target="#carousel4" data-bs-slide-to="0" class="active"></li>
+                                    <li data-bs-target="#carousel4" data-bs-slide-to="1"></li>
+                                </ol>
+                            </div>
+                            <p>Agora que você já sabe as três formas que o  <i>To be</i> pode assumir, no tempo presente, compreenda como ele pode ter dois significados distintos.  </p>
+                            <p>Clique ou toque para ouvir o conteúdo.   </p>
+                            <div class="container-fluig text-center">
+                                <div class="row justify-content-start" style="padding: 25px 20px 5px;">
+                                    <div class="col texto-ident">IS significando SER </div>
+                                    <div class="col texto-ident">Aqui o ARE significa SER </div>
+                                </div>
+                                <div class="row justify-content-start">
+                                    <div class="col-3">
+                                        <div id="bt-audio1" class="audio-img-us">
+                                            <audio id="tobe-snd1">
+                                                <source src="audio/audio1.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>She is a teacher. 
+                                    </div>
+                                    <div class="col-3">
+                                        <div id="bt-audio5" class="audio-img-br">
+                                            <audio id="tobe-snd5">
+                                                <source src="audio/audio5.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>Ela é professora.  
+                                    </div>
+                                    <div class="col-3">
+                                        <div id="bt-audio2" class="audio-img-us">
+                                            <audio id="tobe-snd2">
+                                                <source src="audio/audio2.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>They are happy.
+                                    </div>
+                                    <div class="col-3">
+                                        <div id="bt-audio6" class="audio-img-br">
+                                            <audio id="tobe-snd6">
+                                                <source src="audio/audio6.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div> Eles são felizes.
+                                    </div>
+                                </div>
+                                <div class="row justify-content-start" style="padding: 25px 20px 5px;">
+                                    <div class="col texto-ident">IS significando ESTAR </div>
+                                    <div class="col texto-ident">ARE significando ESTAR </div>
+                                </div>
+                                <div class="row justify-content-start">
+                                    <div class="col-3">
+                                        <div id="bt-audio3" class="audio-img-us">
+                                            <audio id="tobe-snd3">
+                                                <source src="audio/audio3.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div> It is raining.  
+                                    </div>
+                                    <div class="col-3">
+                                        <div id="bt-audio7" class="audio-img-br">
+                                            <audio id="tobe-snd7">
+                                                <source src="audio/audio7.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>Está chovendo. 
+                                    </div>
+                                    <div class="col-3">
+                                        <div id="bt-audio4" class="audio-img-us">
+                                            <audio id="tobe-snd4">
+                                                <source src="audio/audio4.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>We are hungry.  
+                                    </div>
+                                    <div class="col-3">
+                                        <div id="bt-audio8"  class="audio-img-br">
+                                            <audio id="tobe-snd8">
+                                                <source src="audio/audio8.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>Nós estamos com fome.
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br>
+                            <p>
+                                Nesses exemplos, foram utilizados os <i>Personal Pronouns</i> (pronomes pessoais), mas podem ser usados nomes de pessoas ou lugares com o verbo <i>To be</i> da mesma forma.  
+                            </p>
+                                <p style="text-align: center;"><strong>My mother is</strong> here now (Minha mãe <strong>está</strong> aqui agora). </p>
+                                <p style="text-align: center;"><strong>My mother</strong> pode ser substituído por <strong>Ela</strong> (Minha mãe), logo deve ser utilizado o <strong>is</strong>. </p>
+                                <br><br>
+                        </div>           
+                    </div>
+                    <div class="pg3-bg3 bg-jornal3">
+                        <div class="container">   
+                            <br>
+                            <br>
+                            <h4><i>Let’s Practice</i> (É hora de praticar) </h4>
+                            <img src="img/pginicial/Linha.png" alt="">
+                            <div class="box-atividade">
+                                
+                                <p class="text-black"><strong>Complete as frases a seguir com a forma correta do verbo <i>To be</i>. Clique no botão de <i>play</i> e ouça as frases</strong></p>
+                                <!-- 1 -->
+                                <div class="esquemaDaBru">
+                                    <img src="img/pg4/Pg4-bt-play.png" id="bt-play1" class="bt-play-bru" alt="">
+                                    <audio id="bru-snd1">
+                                        <source src="audio/aaudio1.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <p class="enunciado" tabindex="0"> 1. She __________ my best friend. </p>
+                                    
+                                    <button class="alt-e btn-sesc" title="alternativa: ">a)	am</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">b)	is</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">c)	are </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                    class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do verbo To be. </p>
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="esquemaDaBru">
+                                    <img src="img/pg4/Pg4-bt-play.png" id="bt-play2" class="bt-play-bru" alt="">
+                                    <audio id="bru-snd2">
+                                        <source src="audio/aaudio2.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <p class="enunciado" tabindex="0"> 2. Robert __________ a doctor.  </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">a)	am</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">b)	is</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">c)	are </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                    class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do verbo To be. </p>
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="esquemaDaBru">
+                                    <img src="img/pg4/Pg4-bt-play.png" id="bt-play3" class="bt-play-bru" alt="">
+                                    <audio id="bru-snd3">
+                                        <source src="audio/aaudio3.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <p class="enunciado" tabindex="0"> 3. We __________ in the same class.  </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">a)	am</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">b)	is</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">c)	are </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                            class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do verbo To be. </p>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="esquemaDaBru">
+                                    <img src="img/pg4/Pg4-bt-play.png" id="bt-play4" class="bt-play-bru" alt="">
+                                    <audio id="bru-snd4">
+                                        <source src="audio/aaudio4.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <p class="enunciado" tabindex="0">4. It __________ my favorite color.  </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">a)	am</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">b)	is</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">c)	are </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                    class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do verbo To be. </p>
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                    </div>
+                                </div>
+                                <!-- 5 -->
+                                <div class="esquemaDaBru">
+                                    <img src="img/pg4/Pg4-bt-play.png" id="bt-play5" class="bt-play-bru" alt="">
+                                    <audio id="bru-snd5">
+                                        <source src="audio/aaudio5.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <p class="enunciado" tabindex="0"> 5. They __________ happy and proud.  </p>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">a)	am</button>
+                                    <button class="alt-e btn-sesc" title="alternativa: ">b)	is</button>
+                                    <button class="alt-c btn-sesc" title="alternativa: ">c)	are </button>
+                                    <div class="feedbacks">
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                        <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                        <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                    class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do verbo To be. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br>
+                            <p>
+                                Agora que você já estudou de que forma o verbo <i>To be</i> assume duas possíveis traduções e as exercitou, descubra mais algumas funções que ele assume. É recorrente o relato de alunos que se apresentam desmotivados para estudar o verbo <i>To be</i>. Normalmente, eles perguntam: “Outra vez o verbo <i>To be, teacher?</i>”. Mas você sabe por que o estudar e de que forma? 
+                            </p>
+                            <p>O verbo <i>To be</i> está presente em muitas outras estruturas utilizadas na língua inglesa, como expressar ações que estão acontecendo no presente ou estavam ocorrendo em dado momento do passado. Assista ao vídeo a seguir e veja os exemplos de uso tanto no tempo presente quanto no passado. </p>
+                            
+                            <!-- video verbo tobe -->
+                            <iframe style="display: block; margin: 15px auto; width: 100%; max-width:850px;height: 450px;" src="https://www.youtube.com/embed/3S97MtYYHC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                            <div class="visually-hidden print">
+                                Neste vídeo, confira como usar o verbo to be e os pronomes em seu dia a dia!  
+                                
+                                <p><strong>I am in love.  </strong></p>
+                                <p><strong>Em português:</strong> Eu estou apaixonado.  </p>
+                                <p><strong>They are in love.  </strong></p>
+                                <p><strong>Em português:</strong> Eles estão apaixonados.  </p>
+                                <p><strong>You are tall.  </strong></p>
+                                <p><strong>Em português:</strong> Você é alto.  </p>
+                                <p><strong>She is tall.  </strong></p>
+                                <p><strong>Em português: Ela é alta.  </strong></p>
+                                <p><strong>We are brazilians.  </strong></p>
+                                <p><strong>Em português:</strong> Nós somos brasileiros.  </p>
+                                <p><strong>They are Italian.  </strong></p>
+                                <p><strong>Em português:</strong> Eles são italianos.  </p>
+                                <p><strong>He was intelligent.  </strong></p>
+                                <p><strong>Em português:</strong> Ele era inteligente.  </p>
+                                <p><strong>We were tired.  </strong></p>
+                                <p><strong>Em português:</strong> Nós estávamos cansados.    </p>
+                                <p><strong>They were tired.  </strong></p>
+                                <p><strong>Em português:</strong> Eles estavam cansados.  </p>
+                                <p><strong>They were Japanese.  </strong></p>
+                                <p><strong>Em português:</strong> Eles eram japoneses.  </p>
+                                <p><strong>I was tired.  </strong></p>
+                                <p><strong>Em português:</strong> Eu estava cansado.  </p>
+                                <p>Melhore seu inglês a cada dia vendo séries, filmes e ouvindo podcasts! Até logo! </p>
+                            </div>
+                            <br>
+                            <p>Além do tempo presente e do passado, o <i>To be</i> também é usado no futuro e em outras estruturas, mas volte àquela imagem que o trouxe até aqui, em que o emprego de <i>being</i> nada mais é do que esse mesmo verbo no modo presente contínuo.  </p>
+                            <p>Em inglês, sempre que um tempo verbal apresentar em sua descrição a palavra <i>continuous</i> significa que o verbo principal da frase assumirá a ideia de continuidade, de algo em andamento ou em processo. O que caracteriza esse modo contínuo do verbo é o acréscimo de “ing” à sua escrita. Veja:  </p>
+                            <p style="text-align: center;"><strong>BE</strong> (forma original do verbo To be) e <strong>BE<span style="color: red">ING</strong></span> (forma contínua)</p>
+                            <p>Na frase citada na imagem anterior, BEING, juntamente com o sentido do verbo <i>STOP</i>, passa a intenção de <strong>manter ativa a ação de não ser</strong>. Mais adiante, no decorrer das atividades, serão estudadas as demais formas de uso do <i>To be</i>. </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                    <!-- FIM PG3 -->
+        
+                    <!-- PG4 -->
+                    <div class="pagina">
+                        
+                        <div class="pg4-bg1 bg-jornal1 fundo-branco">
+                            <div class="container">
+                                <h4 class="titulo-head">Os impactos das <i>fake news</i></h4>
+                                <img src="img/pginicial/Linha.png" alt="">
+                                <p>Retomando os estudos sobre <i>fake news</i>, agora será estudado como essas notícias podem impactar a vida individual das pessoas e coletiva da sociedade. Assista ao vídeo a seguir.  </p>
+                                <!-- Fake news -->
+                                <iframe style="display: block; margin: 15px auto;width: 100%; max-width:850px;height: 450px;"  src="https://www.youtube.com/embed/uhV3fSeNmlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                
+
+                                <div class="visually-hidden print">
+                                    <p>Vivemos na era da comunicação instantânea. As notícias se disseminam rapidamente pela Internet e tomam conta das ruas, passando de boca em boca. Tudo isso só traria benefícios, não fosse o crescimento de um fenômeno que pode destruir vidas, carreiras e causas: as <i>fake news</i>, ou, no bom e velho português, as “notícias falsas”.   </p>
+                                    <p>Com tantas redes sociais para as pessoas compartilharem o que quiserem e com pouco controle, há um grande espaço para o surgimento de cada vez mais e mais <i>fake news</i>. São informações aparentemente noticiosas, mas que não representam a realidade. Nos últimos anos, elas têm aparecido inclusive na mídia tradicional.  </p>
+                                    <p></strong>E você? Sabe reconhecer uma <i>fake news</i>? </strong>  </p>
+                                    <p>Uma pesquisa realizada pelo instituto Ipsos, entre os meses de junho e julho de 2018, mostra que 62% dos brasileiros admitiram ter acreditado em notícias falsas, enquanto a média mundial é de 48%.  </p>
+                                    <p>Já uma outra pesquisa realizada por pesquisadoras da Fiocruz, a Fundação Oswaldo Cruz, utilizando o aplicativo Eu Fiscalizo, disponibilizado em 2020 para dispositivos móveis visando a denunciar notícias falsas e conteúdos inapropriados, revela que 10,5% das notícias falsas foram publicadas ou propagadas no Instagram; 15,8%, no Facebook; e 73,7%, no WhatsApp. Inclusive, 71,4% dessas mensagens falsas citam a Fiocruz como fonte de textos relacionados à covid-19.  </p>
+                                    <p>A jornalista e mestra em processos e manifestações culturais Marina Schaidhauer explica quais são os riscos da disseminação de notícias falsas.  </p>
+                                    <p>Para reconhecer e evitar propagar notícias falsas, é importante que você cheque a matéria que contém a informação, pois muitas vezes o título é escrito apenas para que as pessoas cliquem na reportagem e sejam direcionadas para o site.  </p>
+                                    <p>Verifique também o endereço do site que tem a informação, pois o criador de uma notícia falsa costuma colocar o nome de algum veículo de notícias real para dar credibilidade à informação falsa.  </p>
+                                    <p>Outra dica é verificar a data da notícia, pois muitas vezes pode ser uma notícia antiga compartilhada como se fosse atual, distorcendo a informação para a atualidade.  </p>
+                                    <p>Por fim, busque checar a fonte da informação. Uma foto ou um vídeo compartilhado por aplicativos de mensagem pode estar adulterado. Ferramentas como o Google Imagens têm a opção de fazer upload de alguma imagem para checar o local onde ela foi publicada pela primeira vez. </p>
+                                </div>
+                                <div class="box-questao">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="img/pg4/Pg4-ico-praticar.png" styalt="">
+                                        </div>
+                                        <div class="col-10">
+                                            Não é de hoje que informações falsas circulam. Desde que a humanidade é humanidade, existe esse tipo de prática, ou desde que a imprensa é imprensa - se estivermos falando no sentido estrito de notícias jornalísticas falsas. No entanto, as <i>fakes news</i> passam a ser consideradas um fenômeno dos nossos tempos por serem definidas como notícias falsas, pensadas intencionalmente para causar desinformação e divulgadas de modo massivo na internet.  
+                                        </div>
+                                    </div>
+                                    <div class="esquemaDaBru">
+                                        <p class="enunciado" tabindex="0">O artigo expõe o papel das informações falsas divulgadas em meios jornalísticos. Considerando o texto, bem como a influência desse tipo de informação na sociedade, por que é possível concluir que as <i>fake news</i> se diferem de um simples boato? </p>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">a)	Porque são veiculadas na internet. </button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">b)	Porque têm como temática aspectos políticos e de saúde. </button>
+                                        <button class="alt-c btn-sesc" title="alternativa: ">c)	Porque são criadas com o objetivo explícito de causar desinformação. </button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">d)	Porque são veiculadas em meios jornalísticos. </button>
+                                        <div class="feedbacks">
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> A temática da notícia não delimita, segundo o texto, o que é fake news e o que é boato. </p>
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> O tipo de mídia utilizada, segundo o texto, não delimita o que é fake news e o que é boato. </p>
+                                            <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                        class="fas fa-check"></i> Parabéns! Sua resposta está correta. </p>
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> O tipo de mídia utilizada, segundo o texto, não delimita o que é fake news e o que é boato. </p>
+                                        </div>
+                                    </div>
+                                    <br><br><br>
+                                </div>
+                                <br><br>
+                                <h4><i>Fake news</i> e a covid-19</h4>
+                                <img src="img/pginicial/Linha.png" alt="">
+                                <p>Para uma melhor compreensão sobre como as <i>fake news</i> a respeito da pandemia foram utilizadas, leia o texto a seguir.</p>
+                                <figure class="img-carimbo">
+                                    <img src="img/pg4/Pg4-Figura12.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Notícia falsa contendo o seguinte texto: “Isso é grave! HIV, o vírus da aids, foi encontrado em muitas pessoas que tomaram a ‘picada’ para covid! Naquela amostra, o percentual de pessoas que testaram positivo para HIV é 17 vezes maior que a média nacional nos Estados Unidos. Isso reforça a suspeita de que o Sars-Cov-2 tenha sido fabricado por engenharia genética, com a inserção de parte do DNA do HIV”.">
+                                    <figcaption>
+                                        Figura 12 – <i>Fake news</i> a respeito das vacinas contra a covid-19 <br>
+                                        Fonte: Adaptado de NOMURA (2021)<br>
+                                    </figcaption>
+                                </figure>
+                                
+                                <div class="caixa icone saiba-mais">
+                                    <h4 class="visually-hidden print">Atenção</h4>
+                                    O vírus HIV é transmitido por meio da troca de fluidos corporais, como sangue, leite materno, sêmen e secreções vaginais, de acordo com a Organização Pan-Americana da Saúde (Opas). Ao receber a vacina contra a covid-19, por meio de uma seringa não utilizada, não há qualquer risco de contrair o HIV e, consequentemente, desenvolver a aids.
+                                </div>
+                                <p>De acordo com a Organização Mundial da Saúde (OMS), é “teoricamente possível” que pessoas vivendo com o HIV produzam uma resposta imune mais fraca a partir da vacinação contra a covid-19, e isso poderia explicar a presença maior dessa população no estudo de Massachusetts. No entanto, a OMS afirma que ainda não há evidências suficientes para confirmar essa teoria. Diante dessa possibilidade, o Ministério da Saúde recomendou uma dose de reforço para a população vivendo com HIV/aids no país. </p>
+                                <p>Perceba que o texto anterior compartilha alguns elementos que já mencionados a respeito das <i>fake news</i>: o uso de informações vagas, a imprecisão dos dados e o teor sensacionalista conspiratório. Essa notícia, segundo a revista Piauí, “distorce os resultados de um exame que estudou os efeitos da covid-19 em pessoas soropositivas (ou seja, que possuíam o vírus HIV antes da infecção pela covid-19), na tentativa de construir uma relação <a class="tooltip-link" data-bs-toggle="tooltip" title="" data-bs-original-title="Que contém erro; errado; falso.
+                                    ">errônea</a> entre a vacinação e a infecção pelo vírus HIV”. De novo, um incentivo à desinformação e um boicote ao conhecimento científico e à saúde pública, o que afeta a sociedade como um todo, até mesmo aqueles que não acreditam em <i>fake news</i>. A veiculação e o compartilhamento de informações falsas na área da saúde, por meio de redes sociais, sites ou aplicativos de mensagens, podem trazer consequências sérias à saúde individual e coletiva, como questionar e <a class="tooltip-link" data-bs-toggle="tooltip" title="" data-bs-original-title="Renunciar voluntariamente ao poder ou à autoridade soberana: O rei abdicou o trono. “Não sei se o senhor sabe que eu sou neto do Conselheiro Albernaz, aquele que acompanhou Pedro I, quando abdicou” (LB1). “Apesar da pressão para que abdicasse do cargo, Pinta resistia” (TM1). O rei abdicou o trono em (favor de) seu filho, D. Pedro II.
+                                    ">abdicar</a> de programas de vacinações de doenças que já estão <a class="tooltip-link" data-bs-toggle="tooltip" title="" data-bs-original-title="Que sofreu ataque(s); que foi objeto de luta(s).">combatidas</a> no Brasil.</p>
+                            </div>
+                        </div>
+                        <div class="pg4-bg2 bg-jornal1 fundo-branco">
+                            <div class="container">
+                                <br><br>
+                                <h4><i>Fake news</i> no esporte </h4>
+                                <p>Da mesma forma, as <i>fake news</i> também invadiram o mundo esportivo. Um vídeo divulgado no “Twitter” por uma médica americana compilava várias imagens de atletas e árbitros desmaiando durante práticas esportivas. No <i>post</i>, não foi mencionada nenhuma relação com a vacina de imunização contra o coronavírus, mas que a “incidência de mal súbito tende a subir”. Logo, os seguidores começaram a divulgar e comentar que a vacina tinha relação com essas ocorrências.</p>
+                                
+                                <figure>
+                                    <img src="img/pg4/Pg4-figura13.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Captura de tela da rede social Twiiter. Há uma tarja amarela superior com o texto “conteúdo investigado'', abaixo, um fundo rosado com o tweet “Meras coincidências? Não adianta vir com a história de sedentarismo e obesidade na pandemia. São todos atletas! A incidência de mal súbito só tende a subir.”, abaixo, há uma foto de um jogador caído em campo.">
+                                    <figcaption>
+                                        Figura 13 – <i>>Fake news</i nos esportes<br>Fonte: UOL (2021)  
+                                    </figcaption>
+                                </figure>
+                                <p>A Sociedade Brasileira de Medicina do Exercício e do Esporte (SBMEE) divulgou a seguinte nota enfatizando a falta de provas. </p>
+                                <div class="caixa icone saiba-mais">
+                                    <h4 class="visually-hidden print">Saiba mais</h4>
+                                    “A SBMEE orienta que não há nenhuma evidência científica mostrando qualquer tipo de elevação no número de casos de morte súbita em atletas acima dos índices habituais. Adicionalmente, não há nenhum dado que mostre uma associação entre vacinas contra a SARS-CoV-2 e morte súbita em atletas ou em praticantes de atividades físicas intensas e/ou frequentes.”</p>
+                                </div>
+                                <p>
+                                    Outro tema que chamou a atenção, atrelado a megaeventos esportivos, na Copa do Mundo de Futebol de 1998, foi uma suposta manipulação de resultados envolvendo a seleção brasileira. Esse fato repercutiu muito no país após o apito final na Copa do Mundo. Foi um dos primeiros grandes boatos a se espalhar na internet.
+                                </p>
+                                <div class="caixa icone saiba-mais">
+                                    <h4 class="visually-hidden print">Saiba mais</h4>
+                                    “Hackers invadiram o site da CBF e substituíram a página de abertura por um texto mirabolante, que tentava explicar a derrota para a França em uma trama que envolvia dirigentes, jogadores e patrocinadores. Em resumo, o Brasil teria vendido a Copa à Fifa em troca de virar sede e ter seu caminho facilitado para a conquista do pentacampeonato Mundial em 2002.”
+                                </div>
+                                <p>O texto viralizou. Bastava uma eliminação da seleção brasileira em copas para reaparecer com versões adaptadas ao momento, como alterações nos nomes dos jogadores em questão e nos membros da comissão técnica.</p>
+                            </div>
+                        </div>
+                        <div class="pg4-bg3 bg-jornal1 fundo-branco">
+                            <div class="container">
+                                <br><br>
+                                <h4>Jogos olímpicos</h4>
+                                <p>Sobre megaeventos esportivos, os Jogos Olímpicos de Verão são o maior evento esportivo do mundo. Os Jogos modernos foram criados na Grécia, em 1896, e até hoje só deixaram de ser realizados durante as duas grandes guerras mundiais. O evento ocorre a cada quatro anos e, por diversas vezes, muitos países não se sentiram obrigados a enviar suas delegações devido a alguns conflitos. Em 125 anos, os jogos se expandiram muito: passaram de 14 países e 241 atletas (todos homens) em Atenas, em 1896, para mais de 200 países e 11.000 atletas em Tóquio, em 2020. </p>
+                                <p>Para os Jogos Olímpicos de Paris 2024, o Comitê Olímpico Internacional (COI) divulgou o programa com algumas novidades. A principal delas é a igualdade de gênero na distribuição das vagas nas competições, com 50% de participação feminina e 50% masculina, pela primeira vez na história. </p>
+                                
+                                <figure>
+                                    <img src="img/pg4/Pg4-figura-14.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Gráfico sobre a proporção de participação de mulheres em relação aos homens, em jogos olímpicos ao longo da história. A cor laranja representa a participação feminina e a cinza o total de atletas que disputaram os jogos de 1896 a 2016: 1896 - nenhuma mulher e 241 atletas; 1900 - 22 mulheres do total de 997 atletas; 1904 - 6 mulheres do total de 651 atletas; 1908 - 37 mulheres do total de 2.008 atletas; 1912 - 48 mulheres do total de 2.407; 1920 - 35 mulheres do total de 2.626 atletas; 1924 - 135 mulheres do total de 3.089 atletas; 1928 - 277 mulheres do total de 2.883; 1932 - 126 mulheres do total de 1.332 atletas; 1936 - 331 mulheres do total de 3.963 atletas; 1948 - 390 mulheres do total de 4.104 atletas; 1952 - 519 mulheres do total de 4.955 atletas; 1956 - 376 mulheres do total de 3.314 atletas; 1960 - 611 mulheres do total de 5.338 atletas; 1964 - 678 mulheres do total de 5.151 atletas; 1968 - 781 mulheres do total de 5.516 atletas; 1972 – 1.059 mulheres do total de 7.134 atletas; 1976 – 1.260 mulheres do total de 6.084 atletas; 1980 – 1.115 mulheres do total de 5.179 atletas; 1984 – 1.566 mulheres do total 6.829 atletas; 1988 – 2.194 mulheres do total de 8.391 atletas; 1992 – 2.704 mulheres do total de 9.356 atletas; 1996 – 3.512 mulheres do total de 10.318 atletas; 2000 – 4.069 mulheres do total de 10.651 atletas; 2004 – 4.329 mulheres do total de 10.625 atletas; 2008 – 4.637 mulheres do total de 10.942 atletas; 2012 – 4.676 mulheres do total de 10.568 atletas; 2016 – 5.176 mulheres do total de 11.238 atletas.">
+                                    <figcaption>
+                                        Figura 14 – Gráfico sobre a proporção de mulheres em jogos olímpicos. <br>Fonte: Adaptado de R7 (2018) 
+                                    </figcaption>
+                                </figure>
+                                <br>
+                                <!--início do objeto quiz-->
+                        
+                        <div class="box-questao2 no-print">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="img/pg4/Pg4-ico-praticar.png" class="no-print" alt="">
+                                </div>
+                                <div class="col-10">
+                                    <!-- Não é de hoje que informações falsas circulam. Desde que a humanidade é humanidade, existe esse tipo de prática, ou desde que a imprensa é imprensa - se estivermos falando no sentido estrito de notícias jornalísticas falsas. No entanto, as fakes news passam a ser consideradas um fenômeno dos nossos tempos por serem definidas como notícias falsas, pensadas intencionalmente para causar desinformação e divulgadas de modo massivo na internet.   -->
+                                </div>
+                            </div>
+                            <div class="objeto-quiz-corrida no-print" aria-hidden="true">                      
+                                <div class="objeto-window gameStart"> 
+                                    <div class="titulo-objeto animate__animated animate__bounceIn">
+                                        <img src="assets_obj/img/titulo_quiz.png" class="no-print">
+                                    </div>      
+                                    <div class="start-message animate__animated animate__zoomIn">
+                                        <p>Será que você já é um especialista em diferenciar <strong>fato</strong> de <strong><em>fake</em></strong>?</p>
+                                        <p>Você deverá pesquisar na internet para responder às questões do jogo.</p> 
+                                        <div class="text-center w-100">
+                                            <button class="btn btn-primary bt-start">Clique para começar.</button>
+                                        </div> 
+                                    </div>
+                                
+                                </div>
+
+                                <div class="quiz-pista">                           
+                                    <button class="bt-show-question" disabled="disabled" value="0">1</button>
+                                    <button class="bt-show-question" disabled="disabled" value="1">2</button>
+                                    <button class="bt-show-question" disabled="disabled" value="2">3</button>
+                                    <button class="bt-show-question" disabled="disabled" value="3">4</button>
+                                    <button class="bt-show-question" disabled="disabled" value="4">5</button>
+                                    <button class="bt-show-question" disabled="disabled" value="5">6</button>
+                                    <button class="bt-show-question" disabled="disabled" value="6">7</button>
+                                    <button class="bt-show-question" disabled="disabled" value="7">8</button>
+                                    <button class="bt-show-question" disabled="disabled" value="8">9</button>
+                                    <button class="bt-show-question" disabled="disabled" value="9">10</button>
+                                    <button class="bt-show-question bt-finish" disabled="disabled">FIM</button>
+                                    <div id="quiz-pontos">Pontos:  0</div>
+                                    <img src="./assets_obj/img/titulo_quiz.png" class="titulo-quiz-pista no-print" alt="">
+                                </div>
+
+                                <div class="objeto-window finishScreen">
+                                    <div class="final-message animate__animated animate__bounceIn">
+                                        <div class="objeto-medalha"></div>
+                                        <p class="total-pontos"></p>
+                                        <p class="mensagem">Parabéns, você concluiu a trilha e já é um especialista em diferenciar fato de fake. </p>
+                                        <button class="btn btn-primary bt-reiniciar">Voltar para o início</button>
+                                    </div>                         
+                                </div>
+                                
+                                <!-- Modal questao-->
+                                <div class="modal animate__animated animate__zoomIn" id="modal-questao" data-bs-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal-questao-enunciado" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-questao-enunciado">Modal title</h5>
+                                                
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center">
+                                                    <button class="btn btn-success btn-lg btn_res btn_fato" value="0" role="button"> FATO</button>
+                                                    <button class="btn btn-danger btn-lg btn_res btn_fake" value="0" role="button"> FAKE</button>
+                                                </div>
+                                            </div>                                   
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Modal feedback-->
+                                <div class="modal  animate__animated animate__bounceIn" id="modal-quiz-feedback" data-bs-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="modal-quiz-feedback-title" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-quiz-feedback-title">Modal title</h5>
+                                                
+                                            </div>
+                                            <div class="modal-body">                                        
+                                                <div class="feedback-text"></div>                                            
+                                                <div class="feedback-img"></div> 
+                                                <div class="text-center">
+                                                    <button data-bs-dismiss="modal" class="btn btn-primary mt-4 btn-continuar">Continuar</button>              
+                                                </div>
+                                                                        
+                                            </div>                                   
+                                        </div>
+                                    </div>
+                                </div>
+                                <audio id="snd-acerto">
+                                    <source src="assets_obj/snd/acerto.mp3" type="audio/mpeg">
+                                </audio>
+                                <audio id="snd-erro">
+                                    <source src="assets_obj/snd/erro.mp3" type="audio/mpeg">
+                                </audio>
+                                <audio id="snd-aplauso">
+                                    <source src="assets_obj/snd/aplauso.mp3" type="audio/mpeg">
+                                </audio> 
+                                <audio id="snd-trombone">
+                                    <source src="assets_obj/snd/sadtrombone.mp3" type="audio/mpeg">
+                                </audio>                         
+                            </div>
+                        </div>
+                        <div class="sr-only acessibilidade-quiz-corrida print">
+                            <h4>Será que você já é um especialista em diferenciar fato de fake?</h4>
+                            <p>Você deverá pesquisar na internet para responder às seguintes questões:</p>
+                            <p>1. As mulheres não podiam competir em jogos olímpicos até o ano de 1900. Aliás, Pierre de Coubertin, criador dos jogos na era moderna, era radicalmente contra a presença de mulheres em esportes. Foi apenas em Tóquio que todos os esportes e todas as delegações contaram com mulheres, que representaram 48% dos atletas, a maior igualdade da história.</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>2. Para ser sede de megaeventos esportivos, como uma copa do mundo, o país-sede não pode ter sido campeão do evento anterior.</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>3. A primeira edição dos jogos, em 1896, não teve nenhuma participação de mulheres; a edição de 1900, que ocorreu em Paris, teve 2,2% de mulheres. Essa participação de mulheres aconteceu contra a vontade de Pierre de Coubertin, criador do COI (Comitê Olímpico Internacional), que tinha uma frase conhecida sobre sua opinião em relação ao assunto: “É indecente ver mulheres torcendo-se no exercício físico do esporte” (PINHEIRO, 2020).</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>4. Para uma nação sediar o evento da Copa do Mundo, é necessário já ter sediado os Jogos Olímpicos de Verão, aproveitando a estrutura do evento anterior (cidade, ginásio, estádio e pistas de atletismo etc.).</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>5. Em 1972, nos jogos de Munique, na Alemanha, oito membros da facção palestina Setembro Negro invadiram a vila olímpica e sequestraram 11 membros da comissão israelita. No confronto, morreram seis treinadores e cinco atletas de Israel, um policial alemão, além de cinco membros do grupo terrorista. Isso fez os jogos serem interrompidos.</p>                        
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>6. Em copas do mundo, a seleção iugoslava, banida das eliminatórias de 1994, já foi destaque. A seleção já havia sido substituída pela Dinamarca, na Eurocopa de 1992, por causa de conflitos internos. Já americanos e iranianos tiraram fotos e trocaram flores em 1998, na Copa da França, mostrando que as tensões estavam esquecidas.</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>7. Para um país se candidatar para ser sede de uma olimpíada, é necessário sediar tanto os Jogos Olímpicos de Verão como os Jogos Olímpicos de Inverno.</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>8. Na Copa de 1978, a ditadura na Argentina aproveitou a empolgação do povo por causa do título, ocorrendo o desaparecimento muitos militantes. Em 1982, durante a Guerra das Malvinas, Argentina e Inglaterra ameaçaram não entrar em campo, caso se encontrassem. Por coincidência, no ano de 1986, as seleções se enfrentaram.</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>
+                            <p>9. O Brasil ficou de fora da Copa do Mundo somente em uma única edição, a realizada em 1978, na Argentina. A seleção não conseguiu sua classificação nas eliminatórias para esse torneio.</p>
+                            <p class="print" aria-hidden="true">( ) FATO  ( )FAKE</p>      
+                            <div class="caixa">
+                                <p><strong>Classificação de acordo com os acertos:</strong></p>
+                                <p>Acertou 10 questões: medalha de ouro</p>
+                                <p>Acertou 8 ou mais: medalha de prata</p>
+                                <p>Acertou 5 ou mais: medalha de bronze</p>
+                            </div>                
+                        </div>
+                    <!--fim do objeto quiz-->
+                                <p>A melhor maneira de verificar a veracidade de uma notícia é pesquisando sobre ela, para analisar se é possível encontrá-la em outras fontes confiáveis. Além disso, alguns grupos fazem um ótimo trabalho na verificação dessas notícias, especialmente as que acabam tendo bastante alcance. Veja uma lista de <i>sites</i> para você verificar as notícias que receber ou encontrar, afinal, o compromisso de todos deve ser sempre com a verdade.</p>
+                                <img src="img/pg4/Pg4-infográfico.png"  class="img-fluid d-block m-auto" data-aos="zoom-in" alt="">
+                            </div>
+                        </div>
+                        <div class="pg4-bg4 bg-jornal fundo-branco">
+                            <div class="container">
+                                <br><br>
+                                <h4>E quando os fatos são reais? </h4>
+                                <p>
+                                    Um cuidado necessário, no entanto, é não colocar a <a class="tooltip-link" data-bs-toggle="tooltip" title="" data-bs-original-title="pecha
+                                    pe·cha
+                                    sf
+                                    Defeito ou imperfeição moral; mau costume; balda, defeito, vício: Tinha a pecha de mau-caráter.
+                                    ">pecha </a> de <i>fake news</i> em notícias que vão contra aquilo que se acredita. Por exemplo, se uma notícia contar que um cantor que você é fã foi <a class="tooltip-link" data-bs-toggle="tooltip" title="" data-bs-original-title="rís·pi·do
+                                    adj
+                                    1 Grosseiro, desagradável no trato; intratável, rude.
+                                    2 Demasiado austero; rígido.
+                                    3 Que não é macio ao tato; áspero.
+                                    ">ríspido</a> com um jornalista, você não deve considerar que a notícia é falsa apenas por não concordar com os motivos citados na matéria. É comum que diferentes canais de comunicação expliquem os acontecimentos de maneiras diferentes, dependendo do ponto de vista e da ideologia, tanto dos jornalistas responsáveis quanto do posicionamento editorial do canal. 
+                                </p>
+                                <p>Em suma, diferentes maneiras de contar um fato não fazem com que o fato seja falso. Por exemplo, retorne ao fato ocorrido no <i>reality show</i> “Big Brother Brasil”. </p>
+                                <div class="row">
+                                    <div class="col">
+                                        <figure>
+                                            <img src="img/pg4/Pg4-figura15.png"  class="img-fluid d-block m-auto" data-aos="zoom-in" alt="A imagem contém a captura de tela de um portal de notícias on-line. O título da notícia é “BBB22: após transfobia, Tadeu abre espaço para Linn reforçar o uso do pronome ‘Ela’”.">
+                                            <figcaption>Figura 15 – Chamada de notícia <br>
+
+                                                Fonte: UOL (2022) </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="col">
+                                        <figure>
+                                            <img src="img/pg4/Pg4-figura16.png"  class="img-fluid d-block m-auto" data-aos="zoom-in" alt="A imagem contém a captura de tela de um portal de notícias on-line. O título da notícia é “BBB22: Linn da Quebrada quer ser tratada nos pronomes femininos e explica tatuagem”.  ">
+                                            <figcaption>
+                                                Figura 16 – Chamada de notícia <br> Fonte: Estadão (2022)  
+                                            </figcaption>
+                                        </figure>
+                                        </div>
+                                </div>
+                                <p>Nos exemplos citados, é possível perceber que um fato pode ser contado de maneiras diferentes. Isso acontece tanto no gênero jornalístico quanto em processos comunicacionais em geral, até mesmo no dia a dia. Por exemplo, se você está contando uma história para alguém, tende a contar a partir do seu ponto de vista. Por isso não existe um discurso neutro, uma vez que sempre ocorre a impressão dos valores e pontos de vista daqueles que o enunciam, mesmo quando não há a intenção de demonstrar isso. </p>
+                                <p>Isso fica nítido nos dois exemplos vistos que, apesar de contarem o mesmo fato, o fazem de maneiras diferentes, dando teores diferentes ao ocorrido. A primeira manchete, por exemplo, marca o contexto da transfobia sofrida pela cantora Linn da Quebrada e sua oportunidade de manifestação sobre a utilização dos pronomes, o que fica evidente pelo uso do verbo “reforçar”. Já a segunda manchete não explicita esse contexto. O uso do verbo “querer” traz a ideia de que o uso dos pronomes é um desejo, e não um direito, porém, no caso da cantora, seu gênero consta como feminino no registro civil inclusive.</p>
+                                <p>Se a primeira manchete dá uma ideia de que Linn da Quebrada reforça os pronomes com os quais deve ser tratada em reação à utilização errônea por parte de outros participantes, a segunda pode dar a entender que esse pedido é movido por capricho se lida por leitores mais incautos. Ou seja, há maneiras diferentes de relatar os fatos, mas, ainda assim, fatos reais.</p>
+                            
+                            </div>
+                        </div>
+                        
+                        <div class="pg4-bg5 bg-jornal fundo-branco">
+                            <div class="container">  
+                                <br><br>
+                                <h4><i>Personal Pronouns</i></h4>
+                                <img src="img/pginicial/Linha.png" alt="">
+                                <p>Hello everybody! (Olá, pessoal!) </p>
+                                <p>Foi possível ver, na situação anterior que se tornou notícia, quão problemático pode ser o emprego inadequado de um termo, no caso referido, um pronome pessoal. Embora o inglês também tenha seus pronomes de acordo com o gênero, há uma convenção linguística, ou seja, um acordo entre os falantes do idioma de que, quando o gênero não for único, deve-se usar o pronome “they” (eles/elas). Simples, não é? </p>
+                                <p>Então agora serão aprofundados um pouco mais os <i>Personal Pronouns</i> (pronomes pessoais), além de algumas curiosidades a respeito de seu uso. </p>
+                                <p>Assista ao vídeo a seguir.  </p>
+                                <iframe style="display: block; margin: 15px auto;width: 100%; max-width:850px;height: 450px;" src="https://www.youtube.com/embed/ik7oj6hDwnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <!--  -->
+                                <div class="visually-hidden print">
+                                    <p>Olá, estudante!  </p>
+                                    <p>Na língua inglesa, os personal pronouns ou os “pronomes pessoais” são facilmente compreendidos e utilizados quando comparados, alguns deles, à língua portuguesa. Vamos conhecê-los?  </p>
+                                    <p>O pronome “eu”, em inglês, é “I” (se pronuncia “ai”). Uma curiosidade sobre esse pronome é que ele é sempre escrito em caixa-alta. A letra “i” é sempre maiúscula, independentemente da sua posição na frase.  </p>
+                                    <p>Veja o exemplo:  </p>
+                                    <p><strong>My friend, my sister and I like movies very much.  </p>
+                                    <p>Meu amigo, minha irmã e eu gostamos muito de filmes. </strong> </p>
+                                    <p>Note que o “eu” é citado por último na sequência e escrito em caixa-alta.  </p>
+                                    <p>Os pronomes “você” e “vocês” são “you”. Em traduções, é necessário analisar o contexto. Se for uma pessoa, “você”, mais pessoas, “vocês”. Como “you” é usado para ambos, é mais fácil, não é?  </p>
+                                    <p>O pronome “ele” é “he” e o pronome “ela” é “she”.   </p>
+                                    <p>Já o pronome “it” é uma particularidade da língua inglesa, utilizado para seres animados ou vivos. Como não há frases sem sujeito nem sujeito indeterminado em inglês, todas elas devem ter um sujeito, e aí que entra o pronome “it”.  </p>
+                                    <p><strong>Veja os exemplos: </strong> </p>
+                                    <p>“Está calor hoje”. Mas quem ou o que está calor? Em inglês, usa-se “It is hot today”.  </p>
+                                    <p>“Isso funciona”. O que funciona? Em inglês, “It works”.  </p>
+                                    <p>“É uma ótima ideia”. O que é uma boa ideia? Uma boa ideia é colocar “it” no início da frase: “It is a good idea”.  </p>
+                                    <p>Para “nós”, é utilizado o pronome “we”. Por fim, para o pronome “eles” ou “elas”, independentemente do gênero, mas se referindo a mais pessoas, o pronome correto é “they”.  </p>
+                                    <p>Viu como os pronomes são fáceis?  </p>
+                                    <p>Não deixe de estudar e praticar!  </p>
+                                    <p>Até a próxima! </p>
+                                </div>
+
+                                <p>Além de ser possível utilizar os pronomes pessoais no lugar dos substantivos, é comum usá-los para se referir a algo que já foi citado, evitando a repetição das palavras. Clique no botão de play e ouça o exemplo a seguir. </p>
+                                <div class="row">
+                                    <div class="col-2"><img src="img/pg4/Pg4-bt-play.png" id="bt-audio9" alt="">
+                                        <audio id="snd9">
+                                            <source src="audio/audio9.mp3" type="audio/mpeg">
+                                        </audio>
+                                    </div>
+                                    <div class="col-10 bg-audioplay">
+                                        <br>
+                                        <p>My mom told me this many times, she is very insistent.  </p>
+                                        <p>(Minha mãe me disse isso muitas vezes, ela é muito insistente.) </p>
+                                    </div>
+                                </div>
+                                <p>Nesse exemplo, para não repetir o sujeito “my mom”, foi utilizado o pronome “she” como referência, que pode ser aplicado a outros sempre que necessário. </p>
+                                <!--  -->
+                                <br><br>
+                                <h4>It’s time to practice! (É hora de praticar!) </h4>
+                                <div class="box-atividade">
+                                
+                                    <p class="text-black">Conforme o conteúdo estudado, selecione o <i>personal pronoun</i> adequado para completar as lacunas nas frases. Clique no botão de play e ouça as frases 
+    
+                                    </p>
+                                    <!-- 1 -->
+                                    <div class="esquemaDaBru">
+                                        <img src="img/pg4/Pg4-bt-play.png" id="bt-play6" class="bt-play-bru" alt="">
+                                        <audio id="bru-snd6">
+                                            <source src="audio/aaudio6.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <p class="enunciado" tabindex="0">1. Georgia is a great student, ____ always participates in class. (Georgia é uma ótima aluna, _____ sempre participa nas aulas). </p>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">a)	He	 </button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">b)	I</button>
+                                        <button class="alt-c btn-sesc" title="alternativa: ">c)	She </button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">d)	We </button>
+                                        <div class="feedbacks">
+                                            
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                            <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                        class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do verbo personal pronoun. </p>
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="esquemaDaBru">
+                                        <img src="img/pg4/Pg4-bt-play.png" id="bt-play7" class="bt-play-bru" alt="">
+                                        <audio id="bru-snd7">
+                                            <source src="audio/aaudio7.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <p class="enunciado" tabindex="0"> 2. The day is very beautiful today, ____ is sunny but not hot. (O tempo está muito bonito hoje, ___ está ensolarado, mas não está quente). </p>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">a)	He	</button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">b)	I</button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">c)	We </button>
+                                        <button class="alt-c btn-sesc" title="alternativa: ">d)	It </button>
+                                        <div class="feedbacks">
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                            <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                        class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do personal pronoun. </p>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="esquemaDaBru">
+                                        <img src="img/pg4/Pg4-bt-play.png" id="bt-play8" class="bt-play-bru" alt="">
+                                        <audio id="bru-snd8">
+                                            <source src="audio/aaudio8.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <p class="enunciado" tabindex="0"> 3. ____ am very excited because I started a new course last week. (___ estou muito empolgada porque eu iniciei um novo curso na semana passada). </p>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">a)	They</button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">b)	You</button>
+                                        <button class="alt-c btn-sesc" title="alternativa: ">c)	I </button>
+                                        <button class="alt-e btn-sesc" title="alternativa: ">d)	He </button>
+                                        <div class="feedbacks">
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> Resposta incorreta. Continue praticando!</p>
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                    class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                                    <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY"><i
+                                                                class="fas fa-check"></i> Parabéns, você desenvolveu as habilidades de uso do verbo personal pronoun. </p>
+                                                                
+                                            <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX"><i
+                                                class="fas fa-times"></i> Resposta incorreta. Continue praticando! </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br><br><br><br>
+                            </div>
+                        </div>
+                        
+                        <div class="pg4-bg6 bg-jornal fundo-branco">
+                            <div class="container">
+                                <p>Outra curiosidade e facilidade que a língua inglesa proporciona são as palavras <i>mixing genders</i> (gênero misto) que auxiliam em situações como a ocorrida com a integrante do BBB. Sendo assim, a palavra usada será neutra e o gênero, caso seja necessário em tradução, deverá ser adaptado. Por exemplo, a palavra <i>teacher</i>, que pode ser utilizada tanto para <strong>professor</strong> quanto para <strong>professora</strong>, evitando equívocos. Veja mais alguns exemplos de palavras <i>mixing genders</i>.  </p>
+                                <img src="img/pg4/Pg4-infográfico-2.png" class="img-fluid d-block m-auto" data-aos="zoom-in"  alt="">
+                                <p>Portanto, na língua inglesa, pode-se usar tanto um pronome que seja neutro quanto um substantivo que também seja neutro em gênero, evitando equívocos no uso de pronomes pessoais, por exemplo. </p>
+                                <p>Há também a possibilidade de substituir palavras que definem gênero por palavras neutras de gênero, referindo-se apenas a uma classe de pessoas ou profissionais. Observe alguns exemplos clicando nos botões:  </p>
+                                <div class="row">
+                                    <div class="modal-mix1 modal-mix" data-bs-toggle="modal" data-bs-target="#mixmodal1" ></div>
+                                    <div class="modal-mix2 modal-mix" data-bs-toggle="modal" data-bs-target="#mixmodal2" ></div>
+                                </div>
+                                <div class="row">
+                                    <div class="modal-mix3 modal-mix" data-bs-toggle="modal" data-bs-target="#mixmodal3"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="modal-mix4 modal-mix" data-bs-toggle="modal" data-bs-target="#mixmodal4" ></div>
+                                    <div class="modal-mix5 modal-mix" data-bs-toggle="modal" data-bs-target="#mixmodal5" ></div>
+                                </div>
+                            
+                                <div class="no-print">
+                                    <div class="modal fade" id="mixmodal1" tabindex="-1"
+                                        aria-labelledby="mixmodal1Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="mixmodal1Label"></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/pg4/Pg4-painel1-modal.png" alt="">
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="mixmodal2" tabindex="-1"
+                                        aria-labelledby="mixmodal2Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="mixmodal2Label"></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/pg4/Pg4-painel2-modal.png" alt="">
+                                                    
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="mixmodal3" tabindex="-1"
+                                        aria-labelledby="mixmodal3Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="mixmodal3Label"></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/pg4/Pg4-painel3-modal.png" alt="">
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="mixmodal4" tabindex="-1"
+                                        aria-labelledby="mixmodal4Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="mixmodal4Label"></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    
+                                                    <img src="img/pg4/Pg4-painel4-modal.png" alt="">
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal fade" id="mixmodal5" tabindex="-1"
+                                        aria-labelledby="mixmodal5Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="mixmodal5Label"></h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="img/pg4/Pg4-painel5-modal.png" alt="">
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Fechar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <table class="table visually-hidden print">
+                                    <thead>
+                                      <tr>
+                                        <th>Ao invés de usarmos: </th>
+                                        <th>Utilizamos: </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Fireman or Firewoman <br>
+                                            Bombeiro ou Bombeira 
+                                        </td>
+                                        <td>Fireperson 
+                                            (Bombeiro) </td>
+                                      </tr>
+                                      <tr>
+                                          <td>Salesman or Saleswoman <br>
+
+                                            Vendedor ou Vendedora </td>
+                                          <td>Salesperson <br>
+                                            Vendedor(a) </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                            Mankind <br>
+                                            Humanidade 
+                                        </td>
+                                          <td>Humanity, People  <br>
+
+                                            Humanidade, Pessoas </td>
+                                      </tr>
+                                      <tr>
+                                          <td>Man or Woman <br>
+
+                                            Homem ou Mulher </td>
+                                          <td>Humans <br>
+
+                                            Humanos </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                            Wife or Husband <br>
+                                            Esposa ou Esposo 
+                                            
+                                        </td>
+                                          <td>
+                                            Partner <br>
+                                            Parceiro </td>
+                                      </tr>
+                                    <tbody>
+                                </table>
+
+
+                                <br><br>
+                            <p>É possível perceber, por meio dos exemplos, que as palavras man e woman são substituídas por outras, como person, people, humanity, human, abrangendo, dessa forma, ambos os gêneros sem exclusões. </p>
+                            <p>
+                                Na língua portuguesa, por sua vez, há pouquíssimas palavras que possam ser adequadas aos gêneros masculino e feminino sem sofrer alterações. Há palavras que são responsáveis por nomear os seres e as coisas ao redor, que são chamadas de <strong>substantivo</strong>. Por exemplo, <strong>tatuagem</strong> é um <strong>substantivo</strong>, uma vez que nomeia os desenhos feitos na pele, assim <strong>Tadeu</strong> também é um <strong>substantivo</strong>, uma vez que nomeia um indivíduo.  
+                            </p>
+                            <p>
+                                Compreendido isso, é importante perceber como os substantivos são divididos de acordo com o gênero feminino ou masculino, até mesmo quando se referem apenas a objetos. Por exemplo, <strong>tatuagem</strong> é um <strong>substantivo feminino</strong>, enquanto <strong>pronome</strong> é um <strong>substantivo masculino</strong>. Por isso, se diz:  
+                            </p>
+                            <div class="pronome-bg pronome-bg1">
+                                <span class="pronome-bg-font">a</span> tatuagem <br>
+                                <span class="pronome-bg-font">o</span> pronome
+                            </div>
+                            <p>Além disso, quando os substantivos se referem a seres vivos, eles tendem a variar de acordo com o gênero que o ser vivo representado tem. Nesse caso, seres do gênero masculino normalmente têm, no fim da palavra, a vogal <strong>o</strong>; já no gênero feminino, <strong>a</strong> vogal utilizada é <strong>a</strong>.  Veja alguns exemplos a seguir: </p>
+                            
+                            <div class="pronome-bg pronome-bg2">
+                                 menin<span class="pronome-bg-font">o</span> <br>
+                                 menin<span class="pronome-bg-font">a</span><br>
+                                 garot<span class="pronome-bg-font">o</span><br>
+                                 garot<span class="pronome-bg-font">a</span>
+                            </div>
+                            <p>Atualmente, em ambientes informais de comunicação, na tentativa de construir uma linguagem menos focada nos gêneros e mais inclusiva com pessoas que não se identificam com o padrão, alguns usuários de redes sociais na internet utilizam a chamada linguagem neutra. Esse tipo de linguagem utiliza a terminação e para os substantivos variáveis, tanto para os gêneros masculino e feminino quanto para os chamados gêneros fluidos.  Veja os exemplos a seguir. </p>
+                            
+                            <div class="pronome-bg pronome-bg3">
+                                menin<span class="pronome-bg-font">e</span> <br>
+                                menin<span class="pronome-bg-font">e</span><br>
+                           </div>
+                            <div class="caixa icone importante" data-aos="zoom-in">
+                                <h4 class="visually-hidden print"></h4>
+                                Esse tipo de linguagem foge do padrão normativo formal da língua portuguesa. Isso quer dizer que não é ideal utilizar essa variação em ambientes formais, como no trabalho, sendo mais apropriada para ambientes informais e para as redes sociais. Naturalmente, não é obrigatório utilizar esse tipo de linguagem, mas é sempre importante saber do que se trata caso você encontre palavras escritas desse modo quando estiver navegando pelas redes.  
+                            </div>
+                            <p>Esse tipo de movimento também faz parte das <strong>variações linguísticas</strong> discutidas na etapa anterior. No caso da linguagem neutra, utilizada em determinados ambientes e em outros não, ocorre a chamada <strong>variação estilística</strong> ou, em sua nomenclatura formal, <strong>variação diafásica.</strong>  </p>
+                            <p>Essa variação se configura a partir do contexto em que determinada linguagem é utilizada. Dessa forma, além da linguagem neutra, ocorre também, por exemplo, na linguagem utilizada para conversar com um chefe e a linguagem para falar com um amigo ou familiar. Pode ser até que não seja percebido de maneira consciente, mas a entonação, o vocabulário e a construção sintática são adaptados de acordo com a situação em que se está inserido.  </p>
+                            <p>Sobre contextos, será discutido mais sobre um bastante comum no dia a dia, que pode ser tanto construtivo quanto tóxico. Prepare-se, pois os ambientes digitais serão adentrados.  </p>
+                        
+                        </div> 
+                        </div>
+                    </div>
+                    <!-- FIM PG4 -->
+                    
+                    <!-- PG5 -->
+                    <div class="pagina pg5">
+                        <!-- <div class="container-fluid">
+                            <div class="row"> -->
+                                <!-- <div class="col-lg-12"> -->
+                                    <div class="bg-jornal3">
+                                        <div class="container">
+                                            <h2 class="titulo-head">Gêneros digitais</h2>
+                                            <img src="img/pginicial/Linha.png" alt="">
+                                            <p>Há linguagens que acabam sendo mais comuns em ambientes digitais. Isso porque a internet revolucionou a maneira com que as pessoas se comunicam, expandindo horizontes e criando novas maneiras de se utilizar a língua. Se, há cinquenta anos, para falar com alguém distante, era necessário escrever uma carta, ir ao correio, esperar a entrega na casa do destinatário e depois aguardar por sua resposta, hoje é possível fazer isso com apenas alguns cliques.  </p>
+                                            <p>Com o advento das redes sociais, a linguagem acabou se adaptando aos diferentes ambientes, tanto pela temática pertencente a cada rede quanto por suas limitações técnicas. Por exemplo, algumas redes sociais, como o “Twitter”, por exemplo, têm limitações no número de caracteres que podem ser utilizados. Logo, a maneira como as pessoas escrevem nessa plataforma se adapta a essa limitação, diferentemente de como as pessoas escrevem no “Instagram”, que não tem essa limitação, por exemplo.</p>
+                                            <p>Dessa forma, foram sendo criados gêneros textuais que aparecem apenas nos ambientes digitais. Esses gêneros são chamados de <b>gêneros digitais</b>, uma vez que eles surgem na internet para atingir necessidades comunicacionais específicas desses ambientes.  Além disso, a internet também possibilita uma maior participação por parte da população em relação a acontecimentos e questões sociais. Em outras palavras, as redes sociais se tornaram ferramentas para que uma maior parte de indivíduos possa expressar suas opiniões e seus pontos de vista sobre tópicos e acontecimentos, tanto individual quanto coletivamente. Por exemplo, no texto a seguir, veja o comentário de um usuário do “Twitter” a respeito da notícia já discutida sobre o <em>reality show</em> “Big Brother Brasil”. </p>
+        
+                                            <figure class="fig-bg">
+                                                <img class="fig17 d-block m-auto aos-init aos-animate" data-aos="zoom-in" src="img/pg5/Pg5-figura17.png" alt="
+                                                Captura de tela da rede social Twitter, baseada no compartilhamento de textos pequenos. Na parte superior esquerda, há a imagem de perfil do usuário, o texto “linda e quebrada”, o nome do perfil “@reginacasebre” e “Em resposta a @tvglobo”. Abaixo, há o seguinte texto: “Obrigada por darem esse espaço a Linn e por acolherem a dor dela. Espero que assim as pessoas se toquem”">
+                                                
+                                            </figure>
+                                            <figcaption>
+                                                Figura 17 – Captura de tela de rede social <br>
+                                                Fonte: Twitter (2022) 
+                                            </figcaption>
+                                            <p>Por meio do aplicativo, o usuário pode responder diretamente ao perfil envolvido. Isso demonstra como as redes conseguem fazer com que a distância entre os elementos da comunicação diminua, de forma que o usuário possa responder diretamente ao perfil da emissora, agradecendo ao modo como lidou com a questão. Outros usuários, no entanto, nem sempre demonstram a mesma generosidade, como pode ser visto no exemplo a seguir. </p>
+                                            <figure class="fig-bg fig-bg-2">
+                                                <img class="fig17 d-block m-auto aos-init aos-animate" data-aos="zoom-in" src="img/pg5/Pg5-figura18.png" alt="
+                                                Captura de tela da rede social Twitter, baseada no compartilhamento de textos pequenos. Na parte superior esquerda, há a imagem de perfil do usuário e ao lado o seguinte texto: “Bender Pistola Oficial - Trikas é o ca… @BenderPis… - 24 de jan.”. Abaixo, há o texto “Em resposta a @tvglobo” e abaixo está escrita a palavra “TRAVECO” na vertical. ">
+                                                
+                                            </figure>
+                                            <figcaption>
+                                                Figura 18 – Captura de tela de rede social <br>
+                                                Fonte: Twitter (2022)  
+                                            </figcaption>
+                                            <p>A palavra “traveco” é utilizada de maneira pejorativa para ofender pessoas transexuais e travestis. Dessa forma, percebe-se que as redes sociais também abrem espaço para que pessoas mal-intencionadas ofendam e sejam desrespeitosas com outras pessoas. Quando isso acontece, esses usuários tendem a defender o fato de que estão no seu direito, afinal, estão exercendo a sua <b>liberdade de expressão</b>. Sobre isso, é um bom momento para esclarecer o que fazer com essa tal liberdade.  </p>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                                <div class="bloco-penultimo bg-jornal3">
+                                    <div class="container">
+                                        <br><br><br>
+                                    <h3>Liberdade de expressão</h3>
+                                    <img src="img/pginicial/Linha.png" alt="">
+
+                                    <p>Assista ao vídeo para saber mais sobre liberdade de expressão. </p>
+                                    <!-- expressão do dia a dia -->
+                                    <!-- <iframe style="display: block; margin: 15px auto;" width="560" height="315" src="https://www.youtube.com/embed/Su0iwJx1Dfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                    <!-- liberdade de expressão -->
+                                    <iframe style="display: block; margin: 15px auto;width: 100%; max-width:850px;height: 450px;" src="https://www.youtube.com/embed/4qSb7wt7sRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <div class="visually-hidden print">
+                                       <p>Uma das grandes conquistas das sociedades modernas foi a liberdade de expressão. É muito importante que todos nós possamos declarar nossos pensamentos e nossas opiniões sem impedimentos.  </p>
+                                       <p>Esse direito tão fundamental para os cidadãos está descrito aqui, na Constituição Federal.  </p>
+                                       <p>Nela está escrito, no artigo 5.º, inciso IV, que “é livre a manifestação do pensamento, sendo vedado o anonimato”.  </p>
+                                       <p>Perceba que aqui há duas informações importantes: a primeira é que temos, sim, a liberdade de expor nosso pensamento; a segunda é que temos o dever de não nos escondermos por trás do anonimato.  </p>
+                                       <p>Ou seja, podemos expor nossas opiniões, mas devemos arcar com as consequências daquilo que falamos.  </p>
+                                       <p>Por exemplo, se hipoteticamente você fizer um comentário desrespeitoso sobre seu chefe, você deve ter em mente que poderá arcar com a consequência de ser demitido.   </p>
+                                       <p>Da mesma forma, é possível fazer comentários de cunho racista, homofóbico ou nazista em uma rede social, mas quem os fizer deve estar preparado para arcar com as consequências judiciais disso, porque tanto racismo como homofobia são considerados crimes no Brasil, assim como qualquer apologia ao nazismo.  </p>
+                                       <p>A nossa Constituição tem como princípio fundamental a luta contra preconceitos de qualquer tipo. O artigo 5.º da lei diz o seguinte:  </p>
+                                       <p>“Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade”.  </p>
+                                       <p>Aqui está explícito que a igualdade perante a lei é algo essencial para a construção da nossa democracia e que essa igualdade é, em tese, garantida a todos os indivíduos brasileiros, independentemente de religião, etnia ou sexualidade.   </p>
+                                       <p>Isso fica ainda mais evidente quando observamos os objetivos fundamentais da República Federativa do Brasil, dispostos nos incisos do artigo 3.º do mesmo documento:  </p>
+                                       <p>Construir uma sociedade livre, justa e solidária;  </p>
+                                       <p>Garantir o desenvolvimento nacional;  </p>
+                                       <p>Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais;  </p>
+                                       <p>E promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.  </p>
+                                       <p>Lembre-se de que, do mesmo jeito que você tem a liberdade de opinar sobre o que quiser, as outras pessoas também têm a liberdade de expressar suas reações sobre o que você disse.  </p>
+                                       <p>Quando isso acontece, todos estão exercendo seu direito de forma democrática e responsável, sem qualquer tipo de censura, da maneira como a liberdade de expressão deve ser. </p>
+                                    </div>
+                                    <p>Após assistir ao vídeo, responda à questão a seguir. </p>
+
+                                    <div class="pg5-praticar">
+                                        <p>Liberdade de expressão é a liberdade de manifestação sem medo, com opiniões e pensamentos pessoais. </p>
+                                    </div>
+                                    <div class="bt-container">
+                                        <div class="btn-praticar"><button id="bt-true"></button></div>
+                                        <p id="ou" class="no-print">ou</p>
+                                        <div class="btn-praticar"><button id="bt-false"></button></div>
+                                    </div>
+
+                                    <h4>E essa tal de censura, o que é? </h4>
+                                    <p>Em termos gerais, censura é a inspeção e a proibição de material informativo ou artístico com o intuito de impedir a circulação de ideias que possam ser inconvenientes do ponto de vista moral ou ideológico. Isso significa que a censura é uma ferramenta institucional, e não individual. Uma pessoa não pode censurar a outra por não ter as ferramentas necessárias para isso, mas o Estado brasileiro, por exemplo, tem essas ferramentas para censurar um livro ou uma exposição. Na história do Brasil, não foram poucas as vezes em que isso aconteceu. </p>
+                                    <p>O mais famoso dos períodos em que isso ocorreu foi durante a Ditadura Militar, período ditatorial que vigorou no país entre os anos de 1964 e 1985. Em 1968, após o chamado Ato Institucional n.º 5, foi instalada, entre outras medidas, a censura prévia a qualquer publicação. Isso significa que um músico, por exemplo, antes de lançar sua música, devia apresentá-la ao governo para que ele decidisse se ela não continha nada que pudesse ser considerado perigoso e liberasse a sua circulação.  </p>
+                                    <p>A música “Cálice”, por exemplo, de Chico Buarque, foi censurada exatamente por tratar do tema da liberdade de expressão. Leia um trecho da letra a seguir.  </p>
+                                    
+                                    <img src="img/pg5/Pg5-musica.png" alt="" class="img-fluid d-block m-auto aos-init aos-animate" data-aos="zoom-in">
+
+                                    <p>Perceba que o autor utiliza a palavra “cálice”, com sonoridade semelhante à palavra de ordem “cale-se”, para subverter seu próprio significado e utilizá-la como ferramenta para protestar contra a censura feita pelo regime. Em relação a isso, é preciso lembrar que o gênero canção é feito para ser escutado, e não necessariamente lido. Isso faz com que a possível dupla interpretação da sonoridade da palavra “cálice/cale-se” crie uma <b>figura de linguagem</b>, chamada de <b>ambiguidade</b>. Observe as possibilidades de leitura que a letra consegue construir. </p>
+                                    <div class="caixa" style="text-align: center">
+                                        <p>Pai, afasta de mim esse cálice <br>
+                                            Pai, afasta de mim esse “cale-se”. </p>
+                                    </div>
+                                    <p>A <b>ambiguidade</b> é considerada um <b>vício de linguagem</b>, uma vez que, na maioria dos textos, o ideal é construir uma linguagem clara e objetiva. No entanto, no discurso artístico, isso pode ser uma ferramenta interessante, especialmente em contextos históricos em que há uma grande repressão política. A utilização da ambiguidade como ferramenta de protesto fica nítida nessa letra de música pela quantidade de alusões ao silêncio, ao ato de calar-se e a vontade de gritar e de ser escutado, bem como toda a influência cristã utilizada como pano de fundo, uma vez que essa doutrina era cara ao regime na época. O “cale-se”, no entanto, não foi afastado, e a canção foi censurada e proibida de figurar no disco do artista.  </p>
+                                    
+                                    </div>
+                                </div>
+
+                                <div class="bloco-ultimo">
+                                    <div class="container">
+                                        <br><br>
+                                        <h4>E a proibição das falas racistas, homofóbicas e nazistas não seria também censura?</h4>
+    
+                                        <p>Na verdade, não. É um pouco complexo, mas essa questão será desmembrada. Em primeiro lugar, é necessário compreender alguns valores do país que estão presentes na Constituição Federal. Conforme discutido, o quinto artigo desse documento defende que “<b>Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade</b>”. Isso quer dizer que a busca por uma equidade entre os cidadãos brasileiros é uma característica essencial dentro da realidade brasileira, pelo menos de acordo com a lei.  </p>
+                                        <p>Desse modo, pensamentos com o pressuposto essencial da supremacia de um grupo sobre o outro vão contra o princípio básico da democracia, tornando-se um crime. Assim, por mais que a pluralidade de opiniões e pensamentos seja um valor importante para a manutenção de uma sociedade livre, é preciso ter em mente que o racismo defende a superioridade da branquitude sobre a negritude, a homofobia defende a exclusão de pessoas homossexuais e o nazismo defende a supremacia da raça ariana. Isso faz com que esses pensamentos não sejam “uma questão de opinião” e passem a alimentar a discriminação.  </p>
+                                        <p>Lembre-se de que, ao fazer uma postagem em uma rede social, esse detalhe é importante para evitar problemas e, caso você seja vítima de algum comentário preconceituoso e ofensivo, procure seus direitos. A única utilização da linguagem não aprovada é o desrespeito.  </p>
+                                        <!-- </div>
+
+                                        <div class="bloco-4 pg-5-bloco"> -->
+                                        <figure>
+                                            <img class="d-block m-auto img-fluid aos-init aos-animate" data-aos="zoom-in" src="img/pg5/Figura-19.png" alt="">
+                                            <figcaption>
+                                                Figura 19 - Equidade <br>
+                                                Fonte: SINASEFERN (2015) 
+                                            </figcaption>
+                                        </figure>
+                                    
+                                        
+                                    </div>
+                                </div>
+                            <!-- </div>
+                        </div> -->
+                    </div>
+                    <!-- FIM PG5 -->
+        
+        
+                    <!-- PG6 -->
+                    <div class="pagina pg6">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Referências</h2>
+                                    <p>AVELAR, André. Autor da maior <em>fake news</em> das Copas espera rever textão na Rússia 2018 (...). <b>R7</b>, 3 abr. 2018. Disponível em: https://esportes.r7.com/copa-2018/autor-da-maior-fake-news-das-copas-espera-rever-textao-na-russia-2018-03042018. Acesso em: 13 jun. 2022.  </p>
+
+                                    <p>BALDI, Matheus. <b>Exclusivo: Rafa Kalimann e Bruninho do Vôlei estão juntos</b> (...), 17 jun. 2022. Instagram @matheusbaldi. Disponível em: https://www.instagram.com/p/Ce5zt_WO-do/?utm_source=ig_embed&ig_rid=649b0992-51fa-4940-aa2b-b6710405fe92. Acesso em: 28 jun. 2022. </p>  
+
+                                    <p>BBB 22: Linn da Quebrada quer ser tratada nos pronomes femininos e explica tatuagem. <b>Estadão</b>, 24 jan. 2022. Disponível em: https://emais.estadao.com.br/noticias/tv,bbb-22-linn-da-quebrada-quer-ser-tratada-nos-pronomes-femininos-e-explica-tatuagem,70003959654. Acesso em: 14 abr. 2022.   </p>
+
+                                    <p>BBB22: após transfobia, Tadeu abre espaço para Linn reforçar o uso do pronome 'Ela' (...). <b>UOL</b>, 24 jan. 2022. Disponível em: https://anamaria.uol.com.br/noticias/bbb/bbb22-apos-transfobia-tadeu-abre-espaco-para-linn-reforcar-o-uso-do-pronome-ela.phtml. Acesso em: 14 abr. 2022. </p> 
+
+                                    <p>BRASIL. Congresso Nacional. Câmara dos Deputados. <b>Comissão aprova direito de resposta para postagens em redes sociais</b>. Brasília, 12 nov. 2019. Disponível em: https://www.camara.leg.br/noticias/613181-comissao-aprova-direito-de-resposta-para-postagens-em-redes-sociais/. Acesso em: 28 jun. 2022. </p> 
+
+                                    <p>BRASIL. [Constituição (1988)]. <b>Constituição da República Federativa do Brasil de 1988</b>. Brasília, DF: Presidência da República, [2016]. Disponível em: http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Acesso em: 2 ago. 2022. </p>
+
+                                    <p>BUARQUE, Chico. Cálice. <b>Vagalume</b>, [s.d.]. Disponível em: https://www.vagalume.com.br/chico-buarque/calice.html. Acesso em: 2 ago. 2022. </p> 
+
+                                    <p>CALOGERAS, Luciana. 30 imagens falsas que circularam na internet e as pessoas acabaram acreditando. <b>Mistérios do Mundo</b>, 9 jan. 2020. Disponível em: https://misteriosdomundo.org/30-imagens-falsas-que-circularam-na-internet-e-as-pessoas-acabaram-acreditando/. Acesso em: 6 abr. 2022. </p>                                    
+
+                                    <p>CARVALHO, Victor. Censura: o que é e o que diz a lei brasileira? <b>Politize</b>, 1º out. 2019. Disponível em: https://www.politize.com.br/censura/. Acesso em: 24 mar. 2022.  </p>                                    
+
+                                    <p>CASEBRE, Regina. <b>Obrigada por darem esse espaço a Linn e por acolherem a dor dela. Espero que assim as pessoas se toquem</b>. Brasil, 24 jan. 2022. Twitter: @reginacasebre. Disponível em: https://twitter.com/reginacasebre/status/1485560653884669952?cxt=HHwWgIC-sefi4p0pAAAA. Acesso em: 25 mar. 2022.  </p>                                    
+
+                                    <p>CORRÊA, Kaique. BBB22: Contra novos “erros”, Tadeu Schmidt fala sobre pronomes de Lina. <b>POPline</b>, 24 jan. 2022. Disponível em: https://portalpopline.com.br/contra-erros-tadeu-schmidt-pronomes-lina/. Acesso em: 25 mar. 2022.  </p>                                    
+
+                                    <p>CRUZ, Felipe Branco. Pabllo Vittar vai estampar nova nota de R$ 50. Gente! Isso é verdade? <b>UOL</b>, 21 fev. 2018. Disponível em: https://caraoucoroa.blogosfera.uol.com.br/2018/02/21/pablo-vittar-vai-estampar-nova-nota-de-r-50-gente-isso-e-verdade/. Acesso em: 23 mar. 2022.</p>                                     
+
+                                    <p>DIANA, Daniela. Gênero Textual Notícia. <b>Toda Matéria</b>, c2011-2022. Disponível em: https://www.todamateria.com.br/genero-textual-noticia/. Acesso em: 25 mar. 2022.  </p>                                    
+
+                                    <p>DIANA, Daniela. Gênero Textual Reportagem. <b>Toda Matéria</b>, c2011-2022. Disponível em: https://www.todamateria.com.br/genero-textual-reportagem/. Acesso em: 23 jun. 2022.  </p>                                    
+
+                                    <p>GALHARDI, Cláudia Pereira <em>et al</em>. Fato ou <em>Fake</em>? Uma análise da desinformação frente à pandemia da Covid-19 no Brasil. <b>Ciência & Saúde Coletiva</b> [online], Rio de Janeiro, v. 25, supl. 2, p. 4201-4210, out. 2020. ISSN 1678-4561. Disponível em: https://doi.org/10.1590/1413-812320202510.2.28922020. Acesso em: 2 ago. 2022.  </p>                                    
+
+                                    <p>GÊNERO Textual Notícia. <b>Significados</b>, [s.d.]. Disponível em: https://www.significados.com.br/genero-textual-noticia/. Acesso em: 25 mar. 2022. </p>                                    
+
+                                    <p>LINN da Quebrada mostra nova certidão de nascimento com nome Lina Pereira dos Santos. <b>O Globo</b>, 30 dez. 2021. Disponível em: https://oglobo.globo.com/cultura/musica/linn-da-quebrada-mostra-nova-certidao-de-nascimento-com-nome-lina-pereira-dos-santos-25336032. Acesso em: 24 mar. 2022.  </p>                                    
+
+                                    <p>MURPHY, Raymond. <b>English Grammar in Use</b>. 2nd. ed. Cambridge University Press, 1994.</p>                                     
+
+                                    <p>NÃO há relação entre casos de mal súbito em atletas e vacinas contra covid. <b>UOL</b>, 22 nov. 2021. Disponível em https://noticias.uol.com.br/comprova/ultimas-noticias/2021/11/22/nao-ha-relacao-entre-casos-de-mal-subito-em-atletas-e-vacinas-contra-covid.htm. Acesso em:14 abr. 2022.</p>                                    
+
+                                    <p>NEGÊDI promove I Seminário em Gênero, Educação e Diversidade do IFRN. <b>SINASEFERN</b>, 15 dez. 2015. Disponível em: http://www.sinasefern.org.br/negedi-promove-i-seminario-em-genero-educacao-e-diversidade-do-ifrn/. Acesso em: 4 ago. 2022.</p>                                     
+
+                                    <p>NOMURA, Bruno. Estudo do CDC não relaciona transmissão do HIV à vacinação contra Covid-19. <b>UOL</b>, 28 out. 2021. Disponível em: https://piaui.folha.uol.com.br/lupa/2021/10/28/verificamos-cdc-hiv-vacina-covid/. Acesso em: 13 abr. 2022.  </p>                                    
+
+                                    <p>O QUE é checagem de fatos — ou <em>fact-checking</em>? <b>Aos Fatos</b>, c2015-2022. Disponível em: https://www.aosfatos.org/checagem-de-fatos-ou-fact-checking/. Acesso em: 23 jun. 2022.  </p>                                   
+
+                                    <p>PACHECO, IVAN <em>et. al.</em> Informe da SBMEE sobre eventos de morte súbita em atletas vacinados contra a COVID-19. <b>Sociedade Brasileira de Medicina do Exercício e do Esporte</b>, 10 jan. 2022. Disponível em: https://www.medicinadoesporte.org.br/informe-da-sbmee-sobre-eventos-de-morte-subita-em-atletas-vacinados-contra-a-covid-19/. Acesso em: 12 abr. 2022.  </p>
+
+                                    <p>PISTOLA, Bender. <b>T R A V E C O</b>. 24 jan. 2022. Twitter: @BenderPistola. Disponível em: https://twitter.com/BenderPistola/status/1485552710376206340?cxt=HHwWiMC90beU350pAAAA. Acesso em: 25 mar. 2022. </p>
+
+                                    <p>PITASSE, Mariana. As <em>fake news</em> e a disputa política por desinformação (...). <b>Brasil de Fato</b>, 20 jul. 2020. Disponível em: https://www.brasildefato.com.br/2020/07/20/artigo-as-fake-news-e-a-disputa-politica-por-desinformacao. Acesso em: 1º jul. 2022. </p>
+
+                                    <p>SANTOS, Thaynara. Mulheres nas Olimpíadas. <b>Dois Níveis</b>, 8 nov. 2021. Disponível em: https://www.doisniveis.com/sintropia-feminina/mulheres-nas-olimpiadas. Acesso em: 4 ago. 2022.</p> 
+
+                                    <p>SPARKS, Hannah. Paris Hilton: Infamous ‘stop being poor’ T-shirt is fake. <b>New York Post</b>, 4 maio 2021. Disponível em: https://nypost.com/2021/05/04/paris-hilton-infamous-stop-being-poor-t-shirt-is-fake/. Acesso em: 24 mar. 2022.  </p>
+
+                                    <p>TEACHING Adults. <b>Teaching English - British Council</b>, [s.d.]. Disponível em: https://www.teachingenglish.org.uk/. Acesso em: 24 fev. 2022.  </p>
+
+                                    <p>TERREMOTO mata mais de 1.000 pessoas no Afeganistão. <b>G1</b>, 22 jun. 2022. Disponível em: https://g1.globo.com/mundo/noticia/2022/06/22/terremoto-deixa-mortos-no-afeganistao.ghtml. Acesso em: 22 jun. 2022.</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIM PG6 -->
+
+        </section>
+        <!-- Paginação do print-->
+        <footer class="pg-footer text-center no-print container-fluid">
+            <ul class="pagination">
+            </ul>
+                <a href="index.html">            
+                    <div class="tela-inicial"></div>
+                </a>
+        </footer>
+    </section>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- print legado dos técnicos -->
+    <!-- descomentar essa linha caso queira um print.css e um leitor.css exclusivo para o conteudo ao usar o botao imprimir-->
+    <!--
+    <script>
+        var custom_print_path = 'assets/css/';
+        var custom_leitor_path = 'assets/css/';
+    </script>    
+    -->
+    <script src="assets/print/print.js"></script>
+    <script src="assets/print/template.config.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/audio-player.js"></script>
+    <script src="assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="assets/js/geral.js"></script>
+    <script src="assets/js/rellax.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jqueryui-touch-punch.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/draggable.js"></script>
+    <script src="assets/js/jogoMemoria.js"></script>
+    <script src="assets/js/html2canvas.min.js"></script>
+    <script src="assets/js/scalable.js"></script>
+    <script src="objeto/assets_obj/js/objeto-quiz-corrida.js"></script> 
+    
+    <script>
+        window.addEventListener("load", AOS.refresh);
+    </script>
+    <script>
+        // Adding horizantal parallax scrolling
+        var rellax = new Rellax('.rellax', {
+            // Activate horizantal scrolling
+            // Turned off by default
+            horizontal: false,
+            //Deactivate vertical scrolling
+            vertical: true
+        });
+    </script>
+    <!-- Versao atual do handtalk -->
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+    </script>
+    
+</body>
+
+</html>
