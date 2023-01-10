@@ -770,6 +770,9 @@ div.quadros > div> div > img{
 }
 @media (max-width: 1280px) {
     
+#carouselFlipBook9 img{
+    max-width: 100% !important;
+}
     #bloco-bg-slider{
         top: 5%;
     }
