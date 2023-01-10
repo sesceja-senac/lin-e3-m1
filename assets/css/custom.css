@@ -326,12 +326,16 @@ div.box-atividade .f-positivo.text-success{
     font-size: 40px;
     padding: 15px 0px 0px;
 } */
+.boxC-modal{
+    margin-top: 40px;
+}
 .boxC-modal figure{ 
     cursor: pointer;
     transition: all 0.1s;
     width: 195px;
     height: 160px;
     background-size: 200%;
+    position: relative;
 }
 .boxC-modal figure:hover{ opacity: 0.6; background-position-x: 192px;}
 .boxC-modal figure img{ visibility: hidden;}
@@ -357,9 +361,11 @@ div.box-atividade .f-positivo.text-success{
 /* .boxC-modal figure: { background-position-x: 163px; } */
 
 .boxC-modal figcaption{
-    font-size: 24px;
     font-weight: 500;
-    line-height: initial;
+    line-height: 15px;
+    margin-top: -22px;
+    display: block;
+    position: absolute;
 }
 #carouselId.carousel.sesc {
     margin: 80px 20px;
@@ -755,6 +761,9 @@ div.quadros > div> div > img{
 }
 
 @media (max-width:500px) {
+     .boxC-modal > div:nth-child(3) > figure > figcaption{
+        margin-top: -29px !important;
+     }
     .audio-img-us, .audio-img-br {
         width: 60px;
         height: 45px;

@@ -104,13 +104,21 @@
     font-size: 18px;
 }
 
+#slots{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
 #slots .row,
-#cardPile {
+#cardPile .card{ cursor: move;}
+#cardPile .card:hover{ opacity: 0.8;}
+    #cardPile {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 25px 0;
+    margin-top: 0 !important;
+    padding-top: 0;
 }
 #content-game {
     max-width: 928px;
