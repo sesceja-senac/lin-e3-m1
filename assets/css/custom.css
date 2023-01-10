@@ -42,7 +42,7 @@ body {
 .video-box > div > div:nth-child(2) > video{ margin-left: -30px;}
 .video-box > div > div:nth-child(1) > video{ margin-left: 30px;}
 
-.video-box > div > div:nth-child(2) > img{ margin-left: -30px;}
+/* .video-box > div > div:nth-child(2) > img{ margin-left: -30px;} */
 .video-box > div > div:nth-child(1) > img{ margin-left: 30px;}
 .pg-footer{
     background-color: transparent;
