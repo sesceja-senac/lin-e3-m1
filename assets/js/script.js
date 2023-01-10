@@ -4,6 +4,7 @@ $(document).ready(function() {
     $('.btOnOF').click(function(){
         $(this).parent().toggleClass("isOn");
     })
+    console.log("teste print");
 })
 
 $('.painel-container button').hover(function (){
