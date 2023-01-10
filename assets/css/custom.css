@@ -24,10 +24,33 @@ body {
     position: absolute;
     width: 100%;
 }
+.video-box img{
+    max-width: 100%;
+    min-width: 200px;
+    z-index: 1;
+}
+.video-box video{
+    background-color: #02b1bd;
+    width: 100%;
+    min-width: 400px;
+    height: 220px;
+    margin-left: -5px;
+    box-shadow: 10px 10px 3px #333333a8;
+    border-radius: 5px;
+    z-index: 2;
+}
+.video-box > div > div:nth-child(2) > video{ margin-left: -30px;}
+.video-box > div > div:nth-child(1) > video{ margin-left: 30px;}
+
+.video-box > div > div:nth-child(2) > img{ margin-left: -30px;}
+.video-box > div > div:nth-child(1) > img{ margin-left: 30px;}
 .pg-footer{
     background-color: transparent;
     position: absolute;
     bottom: 0;
+}
+div.bloco2-pg2 > div.container{
+    background-color: transparent;
 }
 .bloco.estilo1 {
     background: unset;
@@ -181,21 +204,21 @@ figcaption {
 .icone.dica::before {
     background-image: url('../../img/pg3/ico-dica.png');
     height: 112px;
-    width: 75px;
+    width: 100px;
     background-size: contain;
     background-color: transparent;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .icone.saiba-mais::before {
     background-image: url('../../img/pg2/ico-saibamais.png');
-    height: 135px;
-    width: 101px;
+    height: 139px;
+    width: 135px;
     background-size: contain;
     background-color: transparent;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 0px;
+    margin-left: -10px;
 }
 
 
@@ -303,8 +326,36 @@ div.box-atividade .f-positivo.text-success{
     font-size: 40px;
     padding: 15px 0px 0px;
 } */
-.boxC-modal figure{ cursor: pointer;}
-.boxC-modal figure:hover{ opacity: 0.6;}
+.boxC-modal figure{ 
+    cursor: pointer;
+    transition: all 0.1s;
+    width: 195px;
+    height: 160px;
+    background-size: 200%;
+}
+.boxC-modal figure:hover{ opacity: 0.6; background-position-x: 192px;}
+.boxC-modal figure img{ visibility: hidden;}
+
+.boxC-modal figure.btIcon1 {
+    background-image: url(../../img/pg1/bt1.png);
+}
+.boxC-modal figure.btIcon2 {
+    background-image: url(../../img/pg1/bt2.png);
+}
+.boxC-modal figure.btIcon3 {
+    background-image: url(../../img/pg1/bt3.png);
+}
+.boxC-modal figure.btIcon4 {
+    background-image: url(../../img/pg1/bt4.png);
+}
+.boxC-modal figure.btIcon5 {
+    background-image: url(../../img/pg1/bt5.png);
+}
+.boxC-modal figure.btIcon6 {
+    background-image: url(../../img/pg1/bt6.png);
+}
+/* .boxC-modal figure: { background-position-x: 163px; } */
+
 .boxC-modal figcaption{
     font-size: 24px;
     font-weight: 500;
@@ -587,9 +638,7 @@ h2 {
     background-size: 100% 100%;
 }
 .bloco5-pg3 .container, .bloco1-pg4 .container, .bloco1-pg5 .container{padding-bottom: 200px;}
-/* .bloco42-pg3 .container{
 
-} */
 .bloco5-pg2{
     padding-bottom: 200px;
 }
@@ -602,6 +651,16 @@ h2 {
     background-image: url('../../img/pg3/bg3.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.bloco1-pg5{
+    background-image: url('../../img/pg5/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #02686D;
+    color: #fff;
+}
+.bloco1-pg5 .container{
+    background-color: transparent;
 }
 /* blocos */
 
@@ -625,12 +684,11 @@ h2 {
     
 }
 .quadros img{
-    max-width: 200px;
+    max-width: 195px;
 }
 div.quadros > div> div > img{
     cursor: pointer;
     display: block;
-    padding: 10px;
 }
 .bt-tooltip{
     text-decoration: underline;

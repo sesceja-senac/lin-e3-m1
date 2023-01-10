@@ -13,6 +13,7 @@ body{
     display: block;
     height: 100%;
     width: 100%;
+    overflow: hidden;
     /* background-image: url('../../img/pginicial/Telainicial-bg.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -24,7 +25,7 @@ a{
 #topo img{ width: 100%;}
 #menu{
     float: right;
-    max-width: 50%;
+    max-width: 49%;
     position: relative;
     display: block;
     width: 60%;
@@ -42,6 +43,7 @@ a{
     text-decoration:none;
     position: absolute;
     top: 0;
+    transition: all 0.5s;
 }
 
 .aneis a{
@@ -60,6 +62,10 @@ a{
 .aneis:nth-child(3){ border-color:  #FF0B12; margin-left: 320px;}
 .aneis:nth-child(4){ border-color:  #FFC827; margin-left: 80px; margin-top: 140px;}
 .aneis:nth-child(5){ border-color:  #35C400; margin-left: 240px; margin-top: 140px;}
+
+.aneis.init{
+    margin-left: -1000px !important;
+}
 .box{
     display: block;
     height: 100vh;
@@ -71,10 +77,10 @@ a{
 .img-atletas{
     float: left;
     display: block;
-    max-width:50%;
+    max-width:45%;
 }
 .img-titulo{
-    max-width: 600px;
+    max-width: 45%;
     margin-top: 150px;
     margin-left: 50px;
 }
@@ -184,11 +190,24 @@ a{
     cursor: pointer;
 }
 /* FIM video intro */
-
-@media (max-width: 1680px) {
-    /* #menu{
-        max-width:70%;
-    } */
+/* @media (max-width: 1080px) {
+    #menu{ margin-right: 10%;}
+    .img-atletas{
+        margin-left: -5%;
+        margin-top: 80px;
+    }
+} */
+@media (max-width: 1080px) {
+    #menu{ margin: 0 auto;
+        display: block;
+        width: 523px;
+        max-width: none;}
+    .img-atletas{
+        margin: 50px auto;
+        width: 200px;
+    }
+}
+/* @media (max-width: 1680px) {
 }
 @media (max-width: 1360px) {
     body{
@@ -222,4 +241,4 @@ a{
         #bt-intro1, #bt-intro2, #bt-intro3 {
             height: 150px;
         }
-}
+} */

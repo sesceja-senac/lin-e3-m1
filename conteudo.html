@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="assets/css/lt-estilos.css">
     <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets_obj/css/style-olimpiadas-verdadeiro-ou-falso.css">
+    
+    <link rel="stylesheet" href="drag/js/dragula.css">
+    <link rel="stylesheet" href="drag/css/game-custom.css">
 </head>
 
 <body class="bg-sesc">
@@ -64,47 +67,48 @@
                             <p>
                                 Prezado estudante, você chegou à etapa 3 do curso. No decorrer dos estudos, foram discutidos diversos assuntos e, para seguir a aprendizagem, relembre cada etapa clicando nos <i>cards</i>  a seguir.  
                             </p>
-                            <div class="row boxC-modal">
-                                <div class="col-4">
-                                    <figure>
-                                        <img src="img/pg1/bt1.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal1" alt="">
-                                        <!-- <figcaption>Concepções básicas</figcaption> -->
-                                    </figure>
+                            <div class="">
+                                <div class="row boxC-modal">
+                                    <div class="col">
+                                        <figure class="btIcon1"  data-bs-toggle="modal" data-bs-target="#bgPainelModal1" >
+                                            <img src="img/pg1/pg1-bt1.png" class="" style="max-width: 100%;"alt="">
+                                            <figcaption>Concepções básicas</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="col">
+                                        <figure class="btIcon2"  data-bs-toggle="modal" data-bs-target="#bgPainelModal2"  >
+                                            <img src="img/pg1/pg1-bt2.png" style="max-width: 100%;"alt="">
+                                            <figcaption>Gênero publicitário</figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="col">
+                                        <figure class="btIcon3" data-bs-toggle="modal" data-bs-target="#bgPainelModal3"  >
+                                            <img src="img/pg1/pg1-bt3.png" style="max-width: 100%;"  alt="">
+                                            <figcaption>O poder e a responsabilidade da publicidade</figcaption>
+                                        </figure>
+                                    </div>
+                                
                                 </div>
-                                <div class="col-4">
-                                    <figure>
-                                        <img src="img/pg1/bt2.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal2"  alt="">
-                                        <!-- <figcaption>Gênero publicitário</figcaption> -->
-                                    </figure>
+                                <div class="row boxC-modal">
+                                    <div class="col">
+                                        <figure class="btIcon4"  data-bs-toggle="modal" data-bs-target="#bgPainelModal4" >
+                                            <img src="img/pg1/pg1-bt4.png" style="max-width: 100%;"alt="">
+                                            <figcaption>Notícias e gêneros digitais  </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="col">
+                                        <figure class="btIcon5"  data-bs-toggle="modal" data-bs-target="#bgPainelModal5"  >
+                                            <img src="img/pg1/pg1-bt5.png" style="max-width: 100%;"alt="">
+                                            <figcaption>A internet como espaço de debates </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="col">
+                                        <figure class="btIcon6"  data-bs-toggle="modal" data-bs-target="#bgPainelModal6"  >
+                                            <img src="img/pg1/pg1-bt6.png" style="max-width: 100%;"alt="">
+                                            <figcaption>Os textos das redes</figcaption>
+                                        </figure>
+                                    </div>
                                 </div>
-                                <div class="col-4">
-                                    <figure>
-                                        <img src="img/pg1/bt3.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal3"  alt="">
-                                        <!-- <figcaption>O poder e a responsabilidade da publicidade</figcaption> -->
-                                    </figure>
-                                </div>
-                            
-                            </div>
-                            <div class="row boxC-modal">
-                                <div class="col-4">
-                                    <figure>
-                                        <img src="img/pg1/bt4.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal4" alt="">
-                                        <!-- <figcaption>Notícias e Gêneros Digitais  </figcaption> -->
-                                    </figure>
-                                </div>
-                                <div class="col-4">
-                                    <figure>
-                                        <img src="img/pg1/bt5.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal5"  alt="">
-                                        <!-- <figcaption>A internet como espaço de debates </figcaption> -->
-                                    </figure>
-                                </div>
-                                <div class="col-4">
-                                    <figure>
-                                        <img src="img/pg1/bt6.png" style="max-width: 100%;" data-bs-toggle="modal" data-bs-target="#bgPainelModal6"  alt="">
-                                        <!-- <figcaption>Os textos das redes</figcaption> -->
-                                    </figure>
-                                </div>
-                            
                             </div>
                                 <div class="no-print">
                                     <!-- Button trigger modal -->
@@ -122,7 +126,7 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="img/pg1/bt1.png"  style="display: block; margin: 0 auto;"   alt="">
+                                                    <img src="img/pg1/pg1-bt1.png"  style="display: block; margin: 0 auto; max-width: 200px;"   alt="">
                                                     <p>
                                                         O que você aprendeu
                                                     </p>
@@ -167,7 +171,7 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="img/pg1/bt2.png"  style="display: block; margin: 0 auto;"   alt="">
+                                                    <img src="img/pg1/pg1-bt2.png"  style="display: block; margin: 0 auto; max-width: 200px;"   alt="">
                                                     <p>O que você aprendeu</p>
                                                     <ul>
                                                         <li>Reconhecer a língua como um processo variável e heterogêneo</li>
@@ -205,7 +209,7 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="img/pg1/bt3.png"  style="display: block; margin: 0 auto;"   alt="">
+                                                    <img src="img/pg1/pg1-bt3.png"  style="display: block; margin: 0 auto; max-width: 200px;"   alt="">
                                                     <p>O que você aprendeu
                                                     </p>
                                                     <ul>
@@ -240,12 +244,12 @@
                                         <div class="modal-dialog modal-dialog-centered">
                                             <div class="modal-content">
                                                 <div class="modal-header">
-                                                    <h5 class="modal-title" id="bgPainelModal4Label">Notícias e Gêneros Digitais </h5>
+                                                    <h5 class="modal-title" id="bgPainelModal4Label">Notícias e gêneros digitais</h5>
                                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="img/pg1/bt4.png"  style="display: block; margin: 0 auto;"   alt="">
+                                                    <img src="img/pg1/pg1-bt4.png"  style="display: block; margin: 0 auto; max-width: 200px;"   alt="">
                                                     <p>O que você aprendeu</p>
                                                     <ul> 
                                                         <li>Identificar os elementos de uma notícia </li>
@@ -280,7 +284,7 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="img/pg1/bt5.png"  style="display: block; margin: 0 auto;"   alt="">
+                                                    <img src="img/pg1/pg1-bt5.png"  style="display: block; margin: 0 auto; max-width: 200px;"   alt="">
                                                     <p>O que você aprendeu</p>
                                                     <ul>
                                                         <li>Utilizar a linguagem de maneira responsável na defesa de ideias e opiniões  </li>
@@ -319,7 +323,7 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <img src="img/pg1/bt6.png"  style="display: block; margin: 0 auto;"   alt="">
+                                                    <img src="img/pg1/pg1-bt6.png"  style="display: block; margin: 0 auto; max-width: 200px;"   alt="">
                                                     <p>O que você aprendeu</p>
                                                     <ul>
                                                         <li>Desenvolver a capacidade de leitura e interpretação dos diferentes tipos de texto a partir de suas características e funcionalidades </li>
@@ -330,7 +334,7 @@
                                                         <li>Intertextualidade</li>
                                                         <li>Interjeições</li>
                                                         <li>Interjections</li>
-                                                        <li>Pontuação </li>
+                                                        <li>Pontuação</li>
                                                         <li>O impacto das redes sociais na saúde </li>
                                                     </ul>
                                                 </div>
@@ -449,16 +453,142 @@
                         </div>
                         <div class="bloco2-pg2">
                             <div class="container">
-                                <br><br><br>
-                                <div class="box-genlit" style="height: 600px;">
+                                <!--  -->
+                                <div id="content-game" >
+                                    
+                                    <div class="container-fluid game-body no-print" style="padding:0;">
+                                        <div class="row">
+                                            <div class="col-10 align-self-start d-block m-auto">
+                                                <div class="row game-descricao-img"><img src="drag/img/pg2-praticar-ico.png" style="width: 150px;" alt=""></div>
+                                                <div class="row game-descricao">
+                                                    
                                     <p>Na atividade a seguir, você poderá exercitar seus conhecimentos acerca das diferenças entre os gêneros literários. Você deve encaixar os tipos de produção textual ao gênero correspondente, tendo como base o que você aprendeu sobre o assunto.  </p>
-                                    <p>Vamos lá! </p>
-                                    <p>
-                                        Design/Diagramação: criar objeto de arrastar e soltar (com ícones representativos), relacionando o gênero literário. 
-                                    </p>
+                                    <p><strong>Vamos lá!</strong> </p>
+                                                </div>
+                                            </div>
+                                            <div id="slots" class="col-12 mt-5 mb-5">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-4 mt-3 mb-3">
+                                                        <div class="game-titulo">
+                                                            <p>Dramatico</p>
+                                                        </div>
+                                                        <div id="slot-1" class="slot">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-4 mt-3 mb-3">
+                                                        <div class="game-titulo">
+                                                            <p>Lírico</p>
+                                                        </div>
+                                                    <div id="slot-2" class="slot">
+                                                    
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-4 mt-3 mb-3">
+                                                    <div class="game-titulo">
+                                                        <p>Narrativo</p>
+                                                    </div>
+                                                    <div id="slot-3" class="slot">
+                                                    
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                
+                                            </div>
+                                
+                                            <div id="cardPile" class="game-itens-container">
+                                                <div id="card-1" class="card" data-target="slot-3">
+                                                    <img src="../img/pg2/narratico3.png" alt="">
+                                                </div>
+                                                
+                                                <div id="card-3" class="card"  data-target="slot-2">
+                                                    <img src="../img/pg2/lirico3.png" alt="">
+                                                </div>
+                                                
+                                                <div id="card-5" class="card" data-target="slot-3">
+                                                    <img src="../img/pg2/narrativo1.png" alt="">
+                                                </div>
+                                                
+                                                <div id="card-8" class="card" data-target="slot-2">
+                                                    <img src="../img/pg2/lirico1.png" alt="">
+                                                </div>
+                                                <div id="card-10" class="card" data-target="slot-1">
+                                                    <img src="../img/pg2/dramatico1.png" alt="">
+                                                </div>
+                                                <div id="card-11" class="card" data-target="slot-3">
+                                                    <img src="../img/pg2/narrativo2.png" alt="">
+                                                </div>
+                                                <div id="card-2" class="card" data-target="slot-2">
+                                                    <img src="../img/pg2/lirico2.png" alt="">
+                                                </div>
+                                                <div id="card-4" class="card" data-target="slot-1">
+                                                    <img src="../img/pg2/dramtico3.png" alt="">
+                                                </div>
+                                                <div id="card-6" class="card" data-target="slot-1">
+                                                    <img src="../img/pg2/dramatico2.png" alt="">
+                                                </div>
+                                            
+                                            </div>
+                                        
+                                            
+                                           
+                                    
+                                        
+                                        </div>
+                                    </div>
+                                </div>                           
+                                
+                                <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Parabéns, resposta correta! </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-4">
+                                                        <img src="drag/img/acerto.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-lg-8">
+                                                <p>Muito bem! Este item faz parte desta etapa de produção.
+                                                </p>
+                                                </div></div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                    <br><br><br>
-                                   
+                            
+                            
+                                <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-danger">
+                                                <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times    "></i> Atenção! </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-lg-4">
+                                                        <img src="drag/img/erro.png" class="img-fluid" alt="">
+                                                    </div>
+                                                    <div class="col-12 col-lg-8">
+                                                <p>Este item não faz parte desta etapa de produção. Tente novamente.
+                                                </p>
+                                                </div></div>
+                            
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!--  -->
                             </div>
                         </div>
                         <div class="bloco3-pg2">
@@ -494,23 +624,24 @@
                                 <p>Durante muito tempo da história da humanidade, as narrativas foram responsáveis por garantir uma explicação de elementos da realidade, como os processos da natureza, por exemplo. É o caso do mito de Perséfone, importante narrativa da mitologia grega. Nessa narrativa, é apresentada Perséfone, filha da deusa Deméter, considerada deusa da fertilidade e da agricultura, a responsável por garantir que os grãos cresçam e as plantas se desenvolvam. Também é apresentado Hades, o deus do submundo, aquele que reina o local para onde vão as almas dos humanos após a morte.  </p>
                                 <!-- <h1>ilustração</h1> -->
                                 <p>Veja mais detalhes dessa narrativa clicando nas setas a seguir. </p>
+                                <br>
                                 <div id="carouselFlipBook9" class="carousel slide carousel-fade" >
                                     <div class="carousel-inner" role="listbox">
                                         <div class="carousel-item active" data-bs-interval="1000">
                                             <img src="img/pg2/Hq1.jpeg"
-                                                class="img-fluid" style="display: block; margin: 0 auto;" alt="Slide 1">
+                                                class="img-fluid" style="display: block; margin: 0 auto;max-width: 700px;" alt="Slide 1">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="1000">
                                             <img src="img/pg2/Hq2.jpeg"
-                                                class="img-fluid" style="display: block; margin: 0 auto;"  alt="Slide 2">
+                                                class="img-fluid" style="display: block; margin: 0 auto;max-width: 700px;"  alt="Slide 2">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="1000">
                                             <img src="img/pg2/Hq3.jpeg"
-                                                class="img-fluid" style="display: block; margin: 0 auto;"  alt="Slide 3">
+                                                class="img-fluid" style="display: block; margin: 0 auto;max-width: 700px;"  alt="Slide 3">
                                         </div>
                                         <div class="carousel-item" data-bs-interval="1000">
                                             <img src="img/pg2/Hq4.jpeg"
-                                                class="img-fluid" style="display: block; margin: 0 auto;"  alt="Slide 4">
+                                                class="img-fluid" style="display: block; margin: 0 auto;max-width: 700px;"  alt="Slide 4">
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselFlipBook9"
@@ -533,7 +664,7 @@
                                 </div>
 
                                 <!--  -->
-                                <br>
+                                <br><br>
                                 <p>Segundo historiadores, essa narrativa serviria aos gregos como explicação para o fenômeno de troca de estações do ano. Considerando essa perspectiva, os períodos referentes ao verão e à primavera, período em que as plantas crescem e se desenvolvem, seria a metade do ano em que Deméter estaria feliz ao lado da filha. Da mesma forma, os períodos referentes ao outono e inverno, quando a maior parte das plantas morre, seria o período em que a deusa estaria em profundo sofrimento, uma vez que a filha estaria presa no submundo junto a Hades.   </p>
                                 <p>Com o tempo, a humanidade foi criando explicações científicas e verificáveis para explicar fenômenos como esse. No entanto, alguns elementos do cotidiano permanecem sendo explicados e percebidos pelas pessoas por meio de narrativas, como sentimentos e sensações, por exemplo.  </p>
                                 <p>
@@ -659,11 +790,29 @@
                                 <p>
                                     Mas afinal, quem foi Barão de Coubertin? Para descobrir, assista ao vídeo.  
                                 </p>
-                                <h1>video</h1>
-                                <p>
-                                    O que significa “olimpismo”? Veja o vídeo a seguir. 
-                                </p>
-                                <h1>video</h1>
+                                <div class="video-box">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="img/pg2/card-video1.png" alt="">
+                                        </div>
+                                        <div class="col">
+                                            <video src="" ></video>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="video-box">
+                                    <div class="row">
+                                        <div class="col">
+                                            <video src="" ></video>
+                                        </div>
+                                        <div class="col">
+                                            <img src="img/pg2/card2-video2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                              <br><br>
                                 <p>
                                     A Carta Olímpica é o documento que fomenta os princípios do olimpismo e rege toda a estrutura do movimento olímpico: COI, comitês nacionais e federações. 
                                 </p>
@@ -821,7 +970,9 @@
             <p>Acertou 5 ou mais: medalha de bronze</p>
         </div>
     </div>
+    <br><br>
                                 <h5>Honraria - Medalha Pierre de Coubertin </h5>
+                                <br>
                                 <figure>
                                      <img src="img/pg2/figura7-mobile.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Fotografias dos dois lados da Medalha de Pierre de Coubertin. Ela é dourada e tem formato circular. Em um lado, aparecem, em relevo, os anéis olímpicos. Do outro, está esculpido o perfil do rosto do Barão de Coubertin: um homem de cabelos curtos e bigode. Circundando a imagem, em relevo, está escrito “Medaille Pierre De Coubertin”. ">
                                      <figcaption>Figura 7 - Medalha Pierre de Coubertin  <br>
@@ -872,7 +1023,7 @@
                                 <h5>Afinal quais são os rituais presentes na cerimônia de abertura?  </h5>
                                 <p>A cerimônia de abertura é a oportunidade de o anfitrião mostrar ao mundo sua história e cultura, por meio de apresentações artísticas, musicais e tecnológicas. </p>  
 
-                                
+                                <br>
                                 <figure>
                                     <img src="img/pg3/figura09.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Visão interna de um estádio durante a cerimônia de abertura das olimpíadas.  ">
                                     <figcaption>
@@ -886,6 +1037,7 @@
                                 <p>
                                     A bandeira olímpica entra no estádio carregada por pessoas que fizeram a diferença no mundo esportivo. No caso do Brasil, ela foi carregada por atletas que marcaram a história do esporte brasileiro, como a jogadora de futebol Martha e o jogador de basquete Oscar, por exemplo.  
                                 </p>
+                                <br>
                                 <figure>
                                     <img src="img/pg3/figura10.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Oito atletas vestidos de branco, quatro de cada lado, carregam a bandeira das olimpíadas centralizada.">
                                     <figcaption>Figura 10 - Bandeira olímpica carregada por atletas brasileiros <br>
@@ -894,6 +1046,7 @@
                                 <p>
                                     Após a chegada da bandeira ao estádio, ela é hasteada ao som do hino olímpico oficial, criado em 1986, pelo poeta grego Kostís Palamás, sua melodia foi feita pelo compositor Spyridon Samaras. Essa parte do ritual se encerra com o acendimento da chama olímpica, através da tocha olímpica. Essa chama permanece acesa durante todos os dias da competição. 
                                 </p>
+                                <br>
                                 <figure>
                                     <img src="img/pg3/figura11.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Homem à esquerda acendendo a pira olímpica.  ">
                                     <figcaption>
@@ -925,7 +1078,7 @@
                                              </figcaption>
                                     </figure>
                                 </div>
-
+                                <br>
                                 <p>
                                     Você se lembra de como era a tocha olímpica do Rio de Janeiro e o que significa os desenhos que tem nela? Confira a seguir.  
                                 </p>
@@ -1810,7 +1963,7 @@
                                 <p>Tendo seu início na Alemanha, o Romantismo foi um movimento de ordem artística e cultural que tinha como principal característica a valorização da subjetividade e da individualidade. Em outras palavras, se hoje o trabalho artístico é percebido como expressão dos sentimentos internos e das sensações do artista, e não apenas como uma técnica que necessita ser dominada, grande parte dessa percepção se deve ao Romantismo. </p>
                                 <p>Além disso, uma característica importante para o movimento romântico é a <strong>idealização</strong> . Nesse contexto, a idealização se configura como um processo em que as coisas e as pessoas são percebidas somente a partir de suas características consideradas positivas, ignorando seus defeitos, como se elas fossem perfeitas.  </p>
                                 <p>Essa idealização pode ser retratada no campo amoroso, especialmente na construção de uma figura amada perfeita, e também em relação ao passado, na construção de uma infância feliz e livre dos problemas da vida adulta. Leia o trecho do poema a seguir, do poeta <strong> Casimiro de Abreu.</strong>  </p>
-                                <div class="destaque-letra">
+                                <div class="caixa icone destaque-letra">
                                     <h5>MEUS OITO ANOS </h5>
                                     Oh! Que saudades que tenho <br>
                                     Da <span class="bt-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="au·ro·ra  sf  1 Claridade que precede, no horizonte, o nascer do sol; alvorada.  2 POR EXT, FIG Primeiro tempo de alguma coisa; primavera.  4 FIG Cor róseo-clara como a que antecede o alvorecer.  ">aurora </span>  da minha vida, <br>
@@ -1822,6 +1975,7 @@
                                     Debaixo dos laranjais! <br>
                                     <br>
                                 </div>
+                                <br>
                                 <p>
                                     Outro tipo de idealização presente no movimento se dá a partir de uma construção romântica da pátria. Aqui, o objetivo principal dos escritores estava em construir um passado glorioso, com foco especial na Idade Média. Nesse viés, a construção de princesas puras de coração se misturava a cavaleiros medievais honrados, corajosos e dispostos a arriscar a própria vida na defesa do rei, dos ideais cristãos e da terra à qual pertencem. É nesse momento que surgem obras importantes para a cultura europeia, como “Ivonhé”, de Walter Scott, e “Os Três Mosqueteiros”, de Alexandre Dumas. 
                                 </p>
@@ -1861,6 +2015,7 @@
                                     Sem qu'inda aviste as palmeiras, <br>
                                     Onde canta o Sabiá. <br>
                                 </div>
+                                <br>
                                 <p>
                                     O poema faz parte do gênero lírico e, apesar de esse gênero ter passado por várias mudanças em sua estrutura, o texto de Gonçalves Dias segue ainda com o formato convencional de um poema. A primeira característica disso é o número estável de <strong>versos</strong> e <strong>estrofes</strong>. Em um poema, assim como em uma música, o <strong>verso</strong> é cada linha do poema e a <strong>estrofe</strong> é um grupo de versos. O poema de Gonçalves Dias, por exemplo, é formado por cinco estrofes. Três delas têm quatro versos e as outras duas têm, cada uma, seis versos.  
                                 </p>
@@ -2112,22 +2267,22 @@
                                 </p>
                                 <div class="quadros">
                                     <div class="row">
-                                        <div class="col-3"><img src="img/pg3/quadro1.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal1"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro2.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal2"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro3.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal3"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro4.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal4"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro1.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal1"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro2.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal2"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro3.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal3"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro4.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal4"  alt=""></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-3"><img src="img/pg3/quadro5.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal5"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro6.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal6"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro7.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal7"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro8.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal8"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro5.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal5"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro6.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal6"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro7.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal7"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro8.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal8"  alt=""></div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-3"><img src="img/pg3/quadro9.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal9"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro10.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal10"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro11.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal11"  alt=""></div>
-                                        <div class="col-3"><img src="img/pg3/quadro12.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal12"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro9.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal9"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro10.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal10"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro11.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal11"  alt=""></div>
+                                        <div class="col"><img src="img/pg3/quadro12.png" data-bs-toggle="modal" data-bs-target="#quadroPainelModal12"  alt=""></div>
                                     </div>
                                 </div>
                                 <div class="modal fade" id="quadroPainelModal1" tabindex="-1"
@@ -2492,11 +2647,13 @@
                                 <p>
                                     Entre os diversos rituais que ocorrem nessa ocasião estão presentes a entrega da bandeira olímpica para o prefeito da cidade-sede, além do momento em que é apagada a chama olímpica. Com isso, são finalizados os jogos olímpicos, retornando o evento em quatro anos.   
                                 </p>
+                                <br>
                                 <figure>
                                     <img src="img/pg4/figura69.png" class="img-fluid d-block m-auto" data-aos="zoom-in" alt="Campo de futebol com um grande círculo cinza no centro. Em volta dele, há diversas pessoas segurando as bandeiras de cada país participante do evento. ">
                                     <figcaption>Figura 69 - Encerramento das Olimpíadas de Tóquio 2020  <br>
                                         Fonte: Yahoo Esportes (2021)  </figcaption>
                                 </figure>
+                                <br>
                                 <h4>A relevância e legado dos Jogos Olímpicos </h4>
                                 <p>
                                     Fora os valores do olimpismo já estudados, os jogos olímpicos são importantes em outros contextos, como nos setores econômico e de infraestrutura. Os jogos podem gerar um excelente avanço econômico para a cidade-sede do evento. Mesmo que para se candidatar ao megaevento exijam-se vários protocolos e responsabilidades, os benefícios econômicos gerados por meio do evento podem ser bem maiores do que os gastos com investimento para sua realização.  
@@ -2516,6 +2673,7 @@
 
                                         Fonte: Us&Co (c2022) </figcaption>
                                 </figure>
+                                <br>
                                 <p>
                                     No Rio de Janeiro, por exemplo, atletas obtiveram excelentes resultados em comparação a edições anteriores, o que foi um aspecto muito positivo da edição. Entretanto, não houve somente o lado esportivo, pois há alguns aspectos que podem ser considerados negativos. Sobre isso, é interessante avaliar alguns pontos, como: o quanto foi planejado de investimento e se foi realmente gasto; estruturas físicas de centros de treinamentos e sua utilização pós-evento e qual a transformação da infraestrutura e da mobilidade da cidade. Veja o gráfico a seguir e reflita. 
                                 </p>
@@ -2526,6 +2684,7 @@
                                         Fonte: Loureiro et al. (2021)  
                                         </figcaption>
                                 </figure>
+                                <br>
                                 <p>
                                     Para acontecer o evento olímpico na cidade do Rio de Janeiro, foi previsto cerca de 28 bilhões de investimento. No decorrer das obras, foi preciso utilizar 13 bilhões a mais. Esse tipo de situação não foi exclusivo do Rio de Janeiro, segundo um estudo realizado pela Universidade de Oxford, todos os jogos olímpicos realizados desde 1960 excedem o orçamento inicial de custos. 
                                 </p>
@@ -2540,6 +2699,7 @@
                                     <figcaption>Figura 72 - Legado Olímpico de Atenas  
                                         Fonte: Terra (2014) </figcaption>
                                 </figure>
+                                <br>
                                 <p>
                                     Centro olímpico de Canoa/Slalon, utilizado nas Olimpíadas de Atenas, em 2004. A foto foi tirada 10 anos após os jogos, em 2014. 
                                 </p>
@@ -2549,6 +2709,7 @@
                                         Fonte: Terra (2014) 
                                          </figcaption>
                                 </figure>
+                                <br>
                                 <p>
                                     Estádio olímpico de beisebol, utilizado nas Olimpíadas de Atenas, em 2004. A foto foi tirada 10 anos após os jogos, em 2014. 
                                 </p>
@@ -2558,6 +2719,7 @@
 
                                         Fonte: Terra (2014)</figcaption>
                                 </figure>
+                                <br>
                                 <p>
                                     A Arena do Futuro, palco das partidas de handebol durante os Jogos do Rio 2016, ficou sem ser utilizada após os jogos e somente neste ano de 2022 começou a sua desmontagem. O material desmontado será reaproveitado para auxiliar na construção de quatro novas escolas. 
                                 </p>
@@ -2567,6 +2729,7 @@
 
                                         Fonte: Loureiro et al. (2021) </figcaption>
                                 </figure>
+                                <br>
                                 <h4>Saiba mais </h4>
                                 <p>
                                     Uma vez que as olimpíadas são um evento em que se une vários países diferentes, foi necessário escolher uma língua oficial, que ficou a cargo do francês, e é por isso que essa é a língua utilizada nas principais cerimônias. Isso acontece tanto porque Pierre de Coubertin era francês quanto pelo fato de que, na época em que os jogos começaram, a França era um polo cultural, e a língua francesa era considerada língua da diplomacia.  
@@ -2692,13 +2855,17 @@
     <script src="assets/interativos/esquema_bru/esquema-bru.js"></script>
     <script src="assets/js/geral.js"></script>
     <script src="assets/js/rellax.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/jqueryui-touch-punch.js"></script>
+    <!-- <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jqueryui-touch-punch.js"></script> -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/draggable.js"></script>
     <script src="assets/js/jogoMemoria.js"></script>
     <script src="assets/js/html2canvas.min.js"></script>
     <script src="assets/js/scalable.js"></script>
+    <!-- drag -->
+    
+    <script src='drag/js/dragula.js'></script>
+    <script src="drag/js/game-custom.js"></script>
     
     <!--js objeto-->
     <script src="assets_obj/js/js-olimpiadas-verdadeiro-ou-falso.js"></script>
