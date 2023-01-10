@@ -5,7 +5,7 @@
   var default_css_path = '../../assets/css/';
   var fa_path = '../../assets/fa/css/' ;
   var js_path = '../../assets/js/';
-  var img_path = '../../assets/img/';
+  var img_path = '../../img/';
 
     //pra usar print modificado por conteudo, adicionar uma tag de script antes
   // do link do print.js no index do conteudo.
