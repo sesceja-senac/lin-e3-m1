@@ -363,9 +363,10 @@ div.box-atividade .f-positivo.text-success{
 .boxC-modal figcaption{
     font-weight: 500;
     line-height: 15px;
-    margin-top: -22px;
+    margin-top: -30px;
+    /* margin-top: -22px;
     display: block;
-    position: absolute;
+    position: absolute; */
 }
 #carouselId.carousel.sesc {
     margin: 80px 20px;
@@ -610,6 +611,9 @@ h2 {
     background-image: url('../../img/pg2/bg-branco.png');
     background-attachment: fixed;
 }
+.bloco3-pg3, .bloco50-pg3{
+    padding-top: 20px;
+}
 .bloco2-pg2{
     background-image: url('../../img/pg2/bg-praticar.png');
     background-size: cover;
@@ -691,6 +695,7 @@ h2 {
 }
 .quadros img{
     max-width: 195px;
+    max-height: 200px;
 }
 div.quadros > div> div > img{
     cursor: pointer;
@@ -735,6 +740,25 @@ div.quadros > div> div > img{
 .saiba-mais.isOn .btOnOF{
     background-image: url('../../img/pg2/saibamais-fechar.png');
 }
+.slot > .card > img{
+    width: 70px;
+    height: 80px;
+}
+.decora{
+
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border: 2px dashed #00838d;
+    border-radius: 50%;
+    margin: 10px auto;
+    top: 22px;
+    left: 0;
+    right: 0;
+}
+
+.decora2{ top: 130px;}
+.decora3{ top: 230px;}
 /* new fim */
 
 @media (max-width: 1680px) {

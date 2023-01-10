@@ -48,9 +48,10 @@ a{
 
 .aneis a{
     color: #fff !important;
-    margin-left: 35px;
+    margin-left: 30px;
     display: block;
     margin-top: 55px;
+    font-size: 22px;
 }
 .aneis:hover{
     opacity: 0.5;
@@ -207,8 +208,11 @@ a{
     right: 0;
     }
     .img-atletas{
-        margin: 50px auto;
+        margin: 250px auto;
         width: 200px;
+    }
+    .botao-video {
+        top: 0px;
     }
 }
 /* @media (max-width: 1680px) {
