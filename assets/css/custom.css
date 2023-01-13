@@ -355,13 +355,12 @@ div.box-atividade .f-positivo.text-success{
 }
 .boxC-modal figure{ 
     cursor: pointer;
-    transition: all 0.1s;
     width: 195px;
     height: 160px;
     background-size: 200%;
     position: relative;
 }
-.boxC-modal figure:hover{ opacity: 0.6; background-position-x: 192px;}
+.boxC-modal figure:hover{ background-position-x: 192px;}
 .boxC-modal figure img{ visibility: hidden;}
 
 .boxC-modal figure.btIcon1 {
@@ -691,6 +690,7 @@ h2 {
     position: relative;
     background-image: url('../../img/pg2/bg3-meio.png');
     background-size: 100%;
+    margin-top: -1px;
 }
 .bloco50-pg3, .bloco3-pg3, .pg1-bloco1{
     position: relative;
@@ -892,6 +892,12 @@ div.quadros > div> div > img{
 .btn-sesc, .btn-sesc-image {
     border: 2px solid rgb(0, 131, 141) !important;
 }
+.fig-fora {
+    margin-bottom: 200px;
+}
+.titulo-fora{
+    margin-top: -200px;
+}
 @media (max-width: 1680px) {
     
     #bloco-bg-slider{
@@ -909,6 +915,13 @@ div.quadros > div> div > img{
    
 }
 @media (max-width: 1280px) {
+    
+.fig-fora {
+    margin-bottom: 50px;
+}
+.titulo-fora{
+    margin-top: -50px;
+}
     .rellax-direita-big{
         display: none;
     }
