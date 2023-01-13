@@ -270,7 +270,7 @@ figcaption {
         background-size: contain;
         background-color: transparent;
         margin-top: 10px;
-        margin-left: -20px;
+        margin-left: -40px;
 }
 
 .icone.pesquisa::before {
@@ -820,6 +820,9 @@ div.bloco4-pg3 > div.container{
     color: #333;
     
 }
+.quadros .row {
+    justify-content: space-between;
+}
 .quadros img{
     max-width: 100%;
     max-height: 100%;
@@ -993,4 +996,10 @@ div.quadros > div> div > img{
 .pg-footer a:visited {
     color: #7a7a7a;
     background-color: #d9d9d9;
+}
+.carta-ol-bg {
+    background-color: #f08900;
+    display: block;
+    padding: 1.5em 2em;
+    border-radius: 30px;
 }
