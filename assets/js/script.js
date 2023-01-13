@@ -31,4 +31,3 @@ $('.card-sesc').click(function(){
     }
     
 })
-
