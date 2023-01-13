@@ -24,12 +24,13 @@ a{
 }
 #topo img{ width: 100%;}
 #menu{
-    float: right;
     max-width: 49%;
-    position: relative;
     display: block;
     width: 60%;
     margin-top: 50px;
+    position: absolute;
+    right: 0;
+    top: 40%;
 }
 .aneis{
     width: 200px;
@@ -65,7 +66,7 @@ a{
 .aneis:nth-child(5){ border-color:  #35C400; margin-left: 240px; margin-top: 140px;}
 
 .aneis.init{
-    margin-left: -1000px !important;
+    margin-left: -2000px !important;
 }
 .box{
     display: block;
@@ -74,16 +75,21 @@ a{
     background-image: url('../../img/telaInicial/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .img-atletas{
     float: left;
     display: block;
-    max-width:45%;
+    max-width: 55%;
+    position: absolute;
+    bottom: 0;
 }
 .img-titulo{
-    max-width: 45%;
+    position: absolute;
+    width: 50%;
     margin-top: 150px;
     margin-left: 50px;
+    right: 50px;
 }
 
 
@@ -244,9 +250,16 @@ a{
 @media (max-width: 760px) {
     #bt-intro1, #bt-intro2, #bt-intro3 {
         height: 200px;
-    }
+    }*/
     @media (max-width: 560px) {
-        #bt-intro1, #bt-intro2, #bt-intro3 {
-            height: 150px;
+       .img-titulo{
+            position: absolute;
+            width: 90%;
+            right: 0;
+            left: 0;
+            margin: 150px auto;
+        }    
+        .img-atletas{
+            display: none;
         }
-} */
+}
