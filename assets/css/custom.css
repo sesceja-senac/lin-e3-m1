@@ -355,13 +355,12 @@ div.box-atividade .f-positivo.text-success{
 }
 .boxC-modal figure{ 
     cursor: pointer;
-    transition: all 0.1s;
     width: 195px;
     height: 160px;
     background-size: 200%;
     position: relative;
 }
-.boxC-modal figure:hover{ opacity: 0.6; background-position-x: 192px;}
+.boxC-modal figure:hover{  background-position-x: 192px;}
 .boxC-modal figure img{ visibility: hidden;}
 
 .boxC-modal figure.btIcon1 {
