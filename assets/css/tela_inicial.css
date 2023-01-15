@@ -210,12 +210,13 @@ a{
         width: 523px;
         max-width: none;
         position: absolute;
+        top: 30%;
     left: 0;
     right: 0;
     }
     .img-atletas{
-        margin: 250px auto;
-        width: 200px;
+        /* margin: 250px auto; */
+        /* width: 200px; */
     }
     .botao-video {
         top: 0px;
@@ -262,4 +263,16 @@ a{
         .img-atletas{
             display: none;
         }
+        #menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .aneis {position: static;}
+        .aneis:nth-child(1){ border-color:  #62BAFF; margin-left: 0px;}
+        .aneis:nth-child(2){ border-color:  black; margin-left: unset; margin-top: unset;}
+        .aneis:nth-child(3){ border-color:  #FF0B12; margin-left: unset; margin-top: unset;}
+        .aneis:nth-child(4){ border-color:  #FFC827; margin-left: unset; margin-top: unset;}
+        .aneis:nth-child(5){ border-color:  #35C400; margin-left: unset; margin-top: unset;}
 }

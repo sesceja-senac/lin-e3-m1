@@ -24,6 +24,14 @@ body {
     position: absolute;
     width: 100%;
 }
+h4 {
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+figure {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 .col-boxImg{
     z-index: 1;
 }
@@ -451,6 +459,12 @@ h2 {
 /* Fim PG6 */
 
 /* Linha do tempo */
+.linhaDoTempo {
+    position: relative; width: 437px;height:2384px;margin: 100px auto 0 auto;
+}
+.linhaDoTempo .linha-bg {
+    position: absolute;
+}
 .linhaDoTempo .col{
     z-index: 1;
 }
@@ -606,7 +620,7 @@ h2 {
 }
 .rellax-direita-big {
     position: absolute;
-    right: -5%;
+    right: -8%;
     width: 35%;
     z-index: 10;
 }
@@ -621,6 +635,7 @@ h2 {
 }
 .relax-top3 {
     top: 350px;
+    right: -12%;
 }
 .relax-top4 {
     top: 450px;
@@ -653,7 +668,7 @@ h2 {
     top: 2550px;
 }
  div.bloco1-pg3 > img.no-print.relax-top1.rellax-direita-big{
-    right: -8%;
+    right: -12%;
  }
 /* blocos */
 
@@ -720,6 +735,9 @@ h2 {
     padding-top: 100px;
     margin-top: 0!important;
 }
+.bloco42-pg3 h4 {
+    color: white;
+}
 .bloco42-pg3{
     position: relative;
     padding-bottom: 200px;
@@ -728,8 +746,9 @@ h2 {
     background-size: 100% 100%;
 }
 .bloco5-pg3{
-    background-image: url('../../img/pg3/bg6.png');
-    background-size: 100% 100%;
+    background-image: url('../../img/ajustes/pg3-parede.png');
+    background-size: cover;
+    background-position: top center;
 }
 
 .bloco1-pg4{
@@ -745,7 +764,7 @@ h2 {
     padding-bottom: 100px;
 }
  .bloco1-pg5 .container{padding-bottom: 200px;}
-.bloco5-pg3 {padding-bottom: 235px;}
+.bloco5-pg3 {padding-bottom: 35px;}
 .bloco5-pg2{
     padding-bottom: 100px;
 }
@@ -771,23 +790,21 @@ h2 {
 .bloco4-pg3{
     position: relative;
     background-image: url('../../img/pg3/bg3.png');
+    background-color: #0a1219;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     /* margin-top: -200px; */
 }
 
 div.bloco4-pg3 > div.container{
-    background-image:  url('../../img/pg2/bg-branco.png');
+    /* background-image:  url('../../img/pg2/bg-branco.png'); */
     /* background-attachment: fixed; */
 	background-repeat: repeat;
     background-size: 100%;
     /* box-shadow: 10px 10px 5px #333333a8, -10px -10px 5px 0px rgba(0,0,0,0.45); */
     /* margin-top: -100px; */
-
-}
-.bloco4-pg3 >  .container{
-    /* margin-top: 200px; */
-    background-image: url('../../img/pg3/bg3-topo.png');
+    box-shadow: 4px 4px 7px #333;
+    border-radius: 20px;
 }
 .bloco1-pg5{
     background-image: url('../../img/pg5/bg.png');
@@ -860,7 +877,7 @@ div.quadros > div > img{
     opacity: 0.5;
 }
 .bt-print{
-    z-index: 10 !important;
+    z-index: 15 !important;
 
 }
 .saiba-mais{
@@ -914,6 +931,19 @@ div.quadros > div > img{
 /* new fim */
 .btn-sesc, .btn-sesc-image {
     border: 2px solid rgb(0, 131, 141) !important;
+}
+
+#caixa-poema {
+    max-width: 550px; 
+    display: block; 
+    margin: 40px auto;
+    width: 100%;
+}
+.pull-right {
+    font-size: 12px;
+    max-width: 80%;
+    margin-right: 0;
+    margin-left: auto;
 }
 @media (max-width: 1680px) {
     
@@ -972,6 +1002,27 @@ div.quadros > div > img{
     .col-boxImg{
         margin-left: -0px;
     }
+    .quadros .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .linhaDoTempo {
+        max-width: 100%;
+        width: 100%;
+    }
+    .linhaDoTempo .linha-bg {
+        max-width: 100%;
+    }
+    .linhaDoTempo .row {
+        flex-wrap: nowrap;
+    }
+    .linhaDoTempo .row .col {
+        width: 50%;
+    }
+    .bloco42-pg3 {
+        background-color: #333;
+        background-image: unset;
+    }
 }
 
 @media (max-width: 870px) {
@@ -1023,4 +1074,8 @@ div.quadros > div > img{
     display: block;
     padding: 1.5em 2em;
     border-radius: 30px;
+    margin: 35px auto;
+}
+.carta-btn:hover > img{
+    transform: scale(1.03);
 }

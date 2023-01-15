@@ -5,6 +5,7 @@
     border: 5px solid #fff;
     border-radius: 20px;
     /* margin: 100px 0px 30px; */
+    box-shadow: 4px 4px 6px #333;
 }
 
 .card {
@@ -22,7 +23,7 @@
     border: none;
 }
 .slot > .card > img{
-    width: 100px;
+    width: 70px;
 }
 /* .card img { 
     width: 134px;
