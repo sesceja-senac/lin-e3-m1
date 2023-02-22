@@ -205,7 +205,7 @@ a{
     }
 } */
 @media (max-width: 1080px) {
-    #menu{ margin: 0 auto;
+    #menu{ margin: 50px auto;
         display: block;
         width: 523px;
         max-width: none;
@@ -252,13 +252,23 @@ a{
     #bt-intro1, #bt-intro2, #bt-intro3 {
         height: 200px;
     }*/
-    @media (max-width: 560px) {
+    @media (max-width: 580px) {
+        body{
+            overflow: unset;
+            background-image: url(../../img/telaInicial/bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .box{
+            background-image: unset;
+            height: auto;
+        }
        .img-titulo{
-            position: absolute;
+            position: unset;
             width: 90%;
-            right: 0;
-            left: 0;
             margin: 150px auto;
+            margin-bottom: 50px;
+            display: block;
         }    
         .img-atletas{
             display: none;
@@ -268,6 +278,7 @@ a{
             justify-content: center;
             flex-wrap: wrap;
             width: 100%;
+            position: unset;
         }
         .aneis {position: static;}
         .aneis:nth-child(1){ border-color:  #62BAFF; margin-left: 0px;}

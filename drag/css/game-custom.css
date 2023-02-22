@@ -21,6 +21,7 @@
     text-align: center;
     cursor: pointer;
     border: none;
+    z-index: 2;
 }
 .slot > .card > img{
     width: 70px;

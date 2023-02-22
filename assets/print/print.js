@@ -5,7 +5,7 @@
   var default_css_path = 'assets/css/';
   var fa_path = 'assets/fa/css/' ;
   var js_path = 'assets/js/';
-  var img_path = 'img/';
+  var img_path = 'assets/img/';
 
     //pra usar print modificado por conteudo, adicionar uma tag de script antes
   // do link do print.js no index do conteudo.
@@ -110,7 +110,7 @@
     HTMLstring='<html lang="pt-br">\n';
     HTMLstring+='<head>\n';
     HTMLstring+='    <link href="'+bootstrap_path+'bootstrap.min.css" rel="stylesheet">\n';
-    HTMLstring+='    <link href="assets/css/sncload.css" rel="stylesheet">\n';
+    HTMLstring+='    <link href="css/sncload.css" rel="stylesheet">\n';
     HTMLstring+='    <link href="'+fa_path+'all.min.css" type="text/css" rel="stylesheet">\n';
     //HTMLstring+='    <link href="css/cores.css" type="text/css" media="all" rel="stylesheet">\n';
     HTMLstring+='    <link href="'+leitor_default_path+'leitor.css" type="text/css" media="all" rel="stylesheet">\n';
