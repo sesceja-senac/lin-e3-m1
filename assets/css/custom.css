@@ -41,6 +41,10 @@ figure {
 .col-boxVideo{
 z-index: 2;
 }
+.col-boxVideo iframe{
+    width: 100%;
+    min-height: 315px;
+}
 
 .video-box{
     clear: both;
@@ -1085,6 +1089,7 @@ div.quadros > div > img{
 }
 
 @media (max-width:580px) {
+    div.bloco2-pg2 > div.container{background-color: #fff;}
      .boxC-modal > div:nth-child(3) > figure > figcaption{
         margin-top: -29px !important;
      }
