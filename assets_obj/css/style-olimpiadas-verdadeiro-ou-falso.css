@@ -2,7 +2,6 @@
 @include sr-only;
 @include sr-only-focusable;
 
-
 .object-true-or-false {
     position: relative;
     padding: 0;
@@ -193,6 +192,27 @@
     background-color: green;
 }
 
+
+#modal-quiz-feedback.certo .feedback-img {
+    background-image: url(../img/personagem_correndo_acerto.png);
+    background-size: contain;
+    height: 120px;
+    width: 70px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+}
+
+#modal-quiz-feedback.errado .feedback-img {
+    background-image: url(../img/personagem_caído_erro.png);
+    background-size: contain;
+    height: 70px;
+    width: 200px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+}
+
 /************************************************************************/
 /********************** Estilo posicões no mapa *************************/
 /************************************************************************/
@@ -231,7 +251,6 @@
     bottom: 0;
     left: -60px;
     z-index: 2;
-
     transition: 200ms;
     transform: rotate(-51deg);
 }
@@ -356,7 +375,12 @@
 }
 
 .bt-show-question.atual:nth-child(11) {
-    animation: scaleAtual 500ms ease-in-out alternate-reverse infinite;
+    background-image: url(../img/bt_resultado.png);
+    top: 307px;
+    left: 283px;
+    width: 189px;
+    height: 309px;
+    animation: scaleAtual 900ms ease-in-out alternate-reverse infinite;
 }
 
 .bt-show-question:nth-child(11)::before {
@@ -366,4 +390,46 @@
 
 .bt-show-question:nth-child(11)::after {
     display: none !important;
+}
+
+
+/************************************************************************/
+/************************ Estilo trofeu final ***************************/
+/************************************************************************/
+
+.object-trophy.nope {
+    background-image: url(../img/personagem_caído_erro.png);
+    background-size: contain;
+    height: 70px;
+    width: 200px;
+    margin: 20px auto;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+}
+
+.object-trophy.bronze {
+    background-image: url(../img/t_bronze.png);
+    background-size: contain;
+    height: 150px;
+    width: 100px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+}
+
+.object-trophy.prata {
+    background-image: url(../img/t_prata.png);
+    background-size: contain;
+    height: 150px;
+    width: 100px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+}
+
+.object-trophy.ouro {
+    background-image: url(../img/t_ouro.png);
+    background-size: contain;
+    height: 150px;
+    width: 100px;
+    margin: 20px auto;
+    background-repeat: no-repeat;
 }

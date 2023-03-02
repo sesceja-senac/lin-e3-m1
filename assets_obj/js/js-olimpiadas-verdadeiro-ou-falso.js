@@ -148,10 +148,10 @@ var QuizCorrida = {
         document.querySelector('#quiz-points').innerHTML = `Pontos: ${this.player_points}`
     },
     gameEnd: function () {
-        //Acertou 10 questões: medalha de ouro 
-        //Acertou 8 ou mais: medalha de prata 
-        //Acertou 5 ou mais: medalha de bronze 
-        document.querySelector('.object-window.finishScreen .mensagem').innerHTML = 'Parabéns, você concluiu o jogo e merece uma medalha olímpica!'
+        //Acertou 10 questões: troféu de ouro 
+        //Acertou 8 ou mais: troféu de prata 
+        //Acertou 5 ou mais: troféu de bronze 
+        document.querySelector('.object-window.finishScreen .mensagem').innerHTML = 'Parabéns, você concluiu o jogo e merece um troféu!'
 
         let medal = "";
         if (this.player_points === 10)
@@ -167,7 +167,7 @@ var QuizCorrida = {
 
         document.querySelector('.total-points').innerHTML = `Você fez ${this.player_points} pontos!`;
 
-        document.querySelector('.object-window.finishScreen .object-medal').classList.add(medal);
+        document.querySelector('.object-window.finishScreen .object-trophy').classList.add(medal);
 
         console.log(medal);
 
@@ -184,10 +184,10 @@ var QuizCorrida = {
 
         this.current = 0;
         this.player_points = 0;
-        document.querySelector('.object-window.finishScreen .object-medal').classList.remove('nope');
-        document.querySelector('.object-window.finishScreen .object-medal').classList.remove('prata');
-        document.querySelector('.object-window.finishScreen .object-medal').classList.remove('bronze');
-        document.querySelector('.object-window.finishScreen .object-medal').classList.remove('ouro');
+        document.querySelector('.object-window.finishScreen .object-trophy').classList.remove('nope');
+        document.querySelector('.object-window.finishScreen .object-trophy').classList.remove('prata');
+        document.querySelector('.object-window.finishScreen .object-trophy').classList.remove('bronze');
+        document.querySelector('.object-window.finishScreen .object-trophy').classList.remove('ouro');
         $('.tip-podio').hide()
         $('.object-window.finishScreen').fadeOut(150);
         $('.object-window.startGame').fadeIn(150);
