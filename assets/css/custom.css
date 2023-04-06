@@ -345,7 +345,7 @@ div.box-atividade .f-positivo.text-success{
     background-color: #fff;
     padding: 10px;
 }
-
+.modal-backdrop{ z-index: 1!important;}
 
 .box-atividade{
     background-color:#00838d ;
